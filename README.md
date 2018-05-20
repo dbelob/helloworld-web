@@ -17,7 +17,7 @@ Creating a simple web application on *Java* in various ways:
 
 From the command line with Maven:
 
-`cd <maven module directory>`
-`mvn jetty:run`
+    cd <maven module directory>
+    mvn jetty:run
 
 Access the deployed web application at: http://localhost:8080/hello
