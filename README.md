@@ -2,11 +2,12 @@
 
 Creating a simple web application on *Java* in various ways:
 
-* HTTP Servlet (`web.xml` file)
-* HTTP Servlet (*@WebServlet* annotation)
-* HTTP Servlet (*ServletContainerInitializer* interface implementation)
-* Spring MVC (`web.xml` file)
-* Spring MVC (*Java* configuration)
+1. HTTP Servlet (`web.xml` file)
+1. HTTP Servlet (*@WebServlet* annotation)
+1. HTTP Servlet (*ServletContainerInitializer* interface implementation)
+1. Spring MVC (`web.xml` file)
+1. Spring MVC (*Java* configuration)
+1. Spring Boot
 
 ## Requirements
 
