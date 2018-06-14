@@ -20,7 +20,7 @@
                 <version>${jetty.maven.version}</version>
                 <configuration>
                     <webApp>
-                        <contextPath>/hello</contextPath>
+                        <contextPath>/</contextPath>
                     </webApp>
                     <stopKey>foo</stopKey>
                     <stopPort>9999</stopPort>
