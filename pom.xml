@@ -17,7 +17,7 @@
         <war.plugin.version>3.2.1</war.plugin.version>
         <jetty.maven.version>9.4.10.v20180503</jetty.maven.version>
 
-        <spring.version>5.0.6.RELEASE</spring.version>
+        <spring.version>5.0.7.RELEASE</spring.version>
         <servlet.api.version>4.0.1</servlet.api.version>
         <jsp.api.version>2.3.1</jsp.api.version>
         <jsp.el.version>3.0.0</jsp.el.version>
