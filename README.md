@@ -8,6 +8,7 @@ Creating a simple web application on *Java* in various ways:
 1. Spring MVC (`web.xml` file)
 1. Spring MVC (*Java* configuration)
 1. Spring Boot (Spring MVC)
+1. Spring Boot (Spring WebFlux)
 
 ## Requirements
 
@@ -25,6 +26,6 @@ Creating a simple web application on *Java* in various ways:
     (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-java-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*)
 
     `mvn spring-boot:run`
-    (for *helloworld-web-spring-boot-mvc*)
+    (for *helloworld-web-spring-boot-mvc*, *helloworld-web-spring-boot-webflux*)
 
 1. Access the deployed web application at: http://localhost:8080

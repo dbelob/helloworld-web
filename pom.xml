@@ -37,6 +37,7 @@
         <module>helloworld-web-spring-mvc-xml</module>
         <module>helloworld-web-spring-mvc-java</module>
         <module>helloworld-web-spring-boot-mvc</module>
+        <module>helloworld-web-spring-boot-webflux</module>
     </modules>
 
     <build>
