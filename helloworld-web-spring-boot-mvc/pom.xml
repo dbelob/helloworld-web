@@ -9,10 +9,10 @@
     </parent>
 
     <groupId>acme</groupId>
-    <artifactId>helloworld-web-spring-boot</artifactId>
+    <artifactId>helloworld-web-spring-boot-mvc</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>acme:helloworld-web-spring-boot</name>
+    <name>acme:helloworld-web-spring-boot-mvc</name>
 
     <build>
         <plugins>
