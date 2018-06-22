@@ -7,7 +7,7 @@ Creating a simple web application on *Java* in various ways:
 1. HTTP Servlet (*ServletContainerInitializer* interface implementation)
 1. Spring MVC (`web.xml` file)
 1. Spring MVC (*Java* configuration)
-1. Spring Boot
+1. Spring Boot (Spring MVC)
 
 ## Requirements
 
