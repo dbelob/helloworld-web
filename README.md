@@ -13,7 +13,7 @@ Creating a simple web application on *Java* in various ways:
 
 ## Requirements
 
-* [JDK 10+](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* [JDK 8+](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * [Apache Maven 3.5.0+](https://maven.apache.org/download.cgi)
 
 ## Running
@@ -25,10 +25,10 @@ Creating a simple web application on *Java* in various ways:
 
     `mvn jetty:run`
 
-    (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-java-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*, *helloworld-web-wicket*)
+    (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-java-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*, *helloworld-web-wicket* modules)
 
     `mvn spring-boot:run`
 
-    (for *helloworld-web-spring-boot-mvc*, *helloworld-web-spring-boot-webflux*)
+    (for *helloworld-web-spring-boot-mvc*, *helloworld-web-spring-boot-webflux* modules)
 
 1. Access the deployed web application at: http://localhost:8080
