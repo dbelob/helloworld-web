@@ -9,6 +9,7 @@ Creating a simple web application on *Java* in various ways:
 1. Spring MVC (*Java* configuration)
 1. Spring Boot (Spring MVC)
 1. Spring Boot (Spring WebFlux)
+1. Wicket
 
 ## Requirements
 
@@ -23,9 +24,11 @@ Creating a simple web application on *Java* in various ways:
 1. From the command line with Maven:
 
     `mvn jetty:run`
-    (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-java-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*)
+
+    (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-java-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*, *helloworld-web-wicket*)
 
     `mvn spring-boot:run`
+
     (for *helloworld-web-spring-boot-mvc*, *helloworld-web-spring-boot-webflux*)
 
 1. Access the deployed web application at: http://localhost:8080
