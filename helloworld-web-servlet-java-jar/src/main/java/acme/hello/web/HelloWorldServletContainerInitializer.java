@@ -1,4 +1,4 @@
-package acme.twitter.web;
+package acme.hello.web;
 
 import javax.servlet.ServletContainerInitializer;
 import javax.servlet.ServletContext;

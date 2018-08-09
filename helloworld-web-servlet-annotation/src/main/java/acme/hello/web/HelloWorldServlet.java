@@ -11,7 +11,7 @@ import java.io.PrintWriter;
 public class HelloWorldServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        final String PAGE_HEADER = "<html><head><title>Twitter</title></head><body>";
+        final String PAGE_HEADER = "<html><head><title>Hello</title></head><body>";
         final String PAGE_FOOTER = "</body></html>";
 
         resp.setContentType("text/html");

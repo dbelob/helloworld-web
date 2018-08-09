@@ -2,7 +2,7 @@
 <%@ page session="false" contentType="text/html; charset=UTF-8" %>
 <html>
 <head>
-    <title>Twitter</title>
+    <title>Hello</title>
     <link rel="stylesheet"
           type="text/css"
           href="<c:url value="style.css" />">
