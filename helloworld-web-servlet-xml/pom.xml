@@ -10,7 +10,7 @@
 
     <artifactId>helloworld-web-servlet-xml</artifactId>
     <packaging>war</packaging>
-    <name>acme:helloworld-web-servlet-xml</name>
+    <name>HelloWorld HTTP Servlet (web.xml)</name>
 
     <build>
         <plugins>

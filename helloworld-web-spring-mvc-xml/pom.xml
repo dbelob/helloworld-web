@@ -10,7 +10,7 @@
 
     <artifactId>helloworld-web-spring-mvc-xml</artifactId>
     <packaging>war</packaging>
-    <name>acme:helloworld-web-spring-mvc-xml</name>
+    <name>HelloWorld Spring MVC (web.xml)</name>
 
     <build>
         <plugins>

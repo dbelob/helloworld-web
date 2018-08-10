@@ -10,7 +10,7 @@
 
     <artifactId>helloworld-web-servlet-java-war</artifactId>
     <packaging>war</packaging>
-    <name>acme:helloworld-web-servlet-java-war</name>
+    <name>HelloWorld HTTP Servlet (ServletContainerInitializer WAR)</name>
 
     <build>
         <plugins>

@@ -10,7 +10,7 @@
 
     <artifactId>helloworld-web-servlet-annotation</artifactId>
     <packaging>war</packaging>
-    <name>acme:helloworld-web-servlet-annotation</name>
+    <name>HelloWorld HTTP Servlet (annotation)</name>
 
     <build>
         <plugins>

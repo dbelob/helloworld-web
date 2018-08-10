@@ -10,7 +10,7 @@
 
     <artifactId>helloworld-web-servlet-java-jar</artifactId>
     <packaging>jar</packaging>
-    <name>acme:helloworld-web-servlet-java-jar</name>
+    <name>HelloWorld HTTP Servlet (ServletContainerInitializer JAR)</name>
 
     <dependencies>
         <!-- JEE -->
