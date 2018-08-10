@@ -26,7 +26,7 @@ Creating a simple web application on *Java* in various ways:
 
     `mvn jetty:run`
 
-    (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-java-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*, *helloworld-web-wicket* modules)
+    (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-java-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*, *helloworld-web-jsf*, *helloworld-web-wicket* modules)
 
     `mvn spring-boot:run`
 
