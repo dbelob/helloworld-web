@@ -9,6 +9,7 @@ Creating a simple web application on *Java* in various ways:
 1. Spring MVC (*Java* configuration)
 1. Spring Boot (Spring MVC)
 1. Spring Boot (Spring WebFlux)
+1. JavaServer Faces (MyFaces)
 1. Wicket
 
 ## Requirements
