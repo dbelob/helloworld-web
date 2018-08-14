@@ -13,89 +13,33 @@
     <packaging>war</packaging>
     <name>HelloWorld JSF</name>
 
-    <!-- Instructions 
-      - Run using jetty 
-          mvn clean jetty:run
-          mvn clean -Dcontainer=jetty-mojarra jetty:run
-          Set your browser to http://localhost:8080/helloworld-web-jsf
-     -->
-
     <properties>
         <jsf-myfaces.version>2.1.7</jsf-myfaces.version>
         <jsf-mojarra.version>2.1.7</jsf-mojarra.version>
-        <jetty.maven.plugin.version>8.1.3.v20120416</jetty.maven.plugin.version>
     </properties>
 
     <build>
-        <finalName>helloworld-web-jsf</finalName>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>${jetty.maven.version}</version>
                 <configuration>
-                    <source>1.5</source>
-                    <target>1.5</target>
+                    <webApp>
+                        <contextPath>/</contextPath>
+                    </webApp>
+                    <stopKey>foo</stopKey>
+                    <stopPort>9999</stopPort>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.apache.geronimo.specs</groupId>
-            <artifactId>geronimo-servlet_2.5_spec</artifactId>
-            <version>1.2</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.geronimo.specs</groupId>
-            <artifactId>geronimo-el_2.2_spec</artifactId>
-            <version>1.0.2</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.geronimo.specs</groupId>
-            <artifactId>geronimo-annotation_1.0_spec</artifactId>
-            <version>1.1.1</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <!-- JSF API: Add here as provided dependency and then add it
-             on jetty-maven-plugin as compile/runtime dependency.
-             The same goes for other JSF libraries. -->
-        <dependency>
-            <groupId>org.apache.myfaces.core</groupId>
-            <artifactId>myfaces-api</artifactId>
-            <version>${jsf-myfaces.version}</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jstl</artifactId>
-            <version>1.2</version>
-            <scope>runtime</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.8.2</version>
-            <scope>test</scope>
-        </dependency>
-
-    </dependencies>
-
     <profiles>
         <profile>
-            <id>bundle-myfaces</id>
+            <id>jsf-myfaces</id>
             <activation>
-                <property>
-                    <name>jsf</name>
-                    <value>myfaces</value>
-                </property>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <!-- Include MyFaces jars into the war -->
             <dependencies>
@@ -115,63 +59,7 @@
         </profile>
 
         <profile>
-            <!-- Plugin embedded jetty 8 container. 
-                 Just running use:
-                 mvn clean jetty:run
-            -->
-            <!-- For debugging use (attach debugger port 8000):
-                 mvnDebug clean jetty:run
-            -->
-            <id>jettyConfig</id>
-            <activation>
-                <property>
-                    <name>!container</name>
-                </property>
-            </activation>
-            <build>
-                <plugins>
-                    <plugin>
-                        <!--This plugin allows to run the war using mvn jetty:run -->
-                        <groupId>org.eclipse.jetty</groupId>
-                        <artifactId>jetty-maven-plugin</artifactId>
-                        <version>${jetty.maven.version}</version>
-                        <configuration>
-                            <webApp>
-                                <contextPath>/</contextPath>
-                            </webApp>
-                            <stopKey>foo</stopKey>
-                            <stopPort>9999</stopPort>
-                        </configuration>
-                        <dependencies>
-                            <!-- Tld scanning only works when JSF is included
-                                 as container dependency. Add other jsf libraries
-                                 here, so jetty:run goal can find and process them -->
-                            <dependency>
-                                <groupId>org.apache.myfaces.core</groupId>
-                                <artifactId>myfaces-api</artifactId>
-                                <version>${jsf-myfaces.version}</version>
-                                <scope>compile</scope>
-                            </dependency>
-                            <dependency>
-                                <groupId>org.apache.myfaces.core</groupId>
-                                <artifactId>myfaces-impl</artifactId>
-                                <version>${jsf-myfaces.version}</version>
-                                <scope>runtime</scope>
-                            </dependency>
-                        </dependencies>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-
-        <profile>
-            <id>bundle-mojarra</id>
-            <activation>
-                <property>
-                    <name>jsf</name>
-                    <value>mojarra</value>
-                </property>
-            </activation>
+            <id>jsf-mojarra</id>
             <!-- Include Mojarra jars into the war -->
             <dependencies>
                 <dependency>
@@ -187,63 +75,6 @@
                     <scope>runtime</scope>
                 </dependency>
             </dependencies>
-            <repositories>
-                <repository>
-                    <id>java.net</id>
-                    <url>http://download.java.net/maven/2</url>
-                </repository>
-            </repositories>
-        </profile>
-
-        <profile>
-            <!-- Plugin embedded jetty 8 container. 
-                 Just running use:
-                 mvn clean -Dcontainer=jetty-mojarra jetty:run 
-            -->
-            <!-- For debugging use (attach debugger port 8000):
-                 mvn clean -Dcontainer=jetty-mojarra jetty:run 
-            -->
-            <id>jettyConfig-mojarra</id>
-            <activation>
-                <property>
-                    <name>container</name>
-                    <value>jetty-mojarra</value>
-                </property>
-            </activation>
-            <build>
-                <plugins>
-                    <plugin>
-                        <!--This plugin allows to run the war using mvn jetty:run -->
-                        <groupId>org.eclipse.jetty</groupId>
-                        <artifactId>jetty-maven-plugin</artifactId>
-                        <version>${jetty.maven.version}</version>
-                        <configuration>
-                            <webApp>
-                                <contextPath>/</contextPath>
-                            </webApp>
-                            <stopKey>foo</stopKey>
-                            <stopPort>9999</stopPort>
-                        </configuration>
-                        <dependencies>
-                            <!-- Tld scanning only works when JSF is included
-                                 as container dependency. Add other jsf libraries
-                                 here, so jetty:run goal can find and process them -->
-                            <dependency>
-                                <groupId>com.sun.faces</groupId>
-                                <artifactId>jsf-api</artifactId>
-                                <version>${jsf-mojarra.version}</version>
-                                <scope>compile</scope>
-                            </dependency>
-                            <dependency>
-                                <groupId>com.sun.faces</groupId>
-                                <artifactId>jsf-impl</artifactId>
-                                <version>${jsf-mojarra.version}</version>
-                                <scope>runtime</scope>
-                            </dependency>
-                        </dependencies>
-                    </plugin>
-                </plugins>
-            </build>
         </profile>
     </profiles>
 </project>
