@@ -102,4 +102,9 @@
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
 
+    ${enable.listener.start}
+    <listener>
+        <listener-class>org.apache.myfaces.webapp.StartupServletContextListener</listener-class>
+    </listener>
+    ${enable.listener.end}
 </web-app>
