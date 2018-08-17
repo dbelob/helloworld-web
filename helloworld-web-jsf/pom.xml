@@ -55,6 +55,15 @@
         </plugins>
     </build>
 
+    <dependencies>
+        <!-- CDI -->
+        <dependency>
+            <groupId>javax.enterprise</groupId>
+            <artifactId>cdi-api</artifactId>
+            <version>${cdi.version}</version>
+        </dependency>
+    </dependencies>
+
     <profiles>
         <profile>
             <id>jsf-myfaces</id>
@@ -67,11 +76,6 @@
                     <groupId>org.apache.myfaces.core</groupId>
                     <artifactId>myfaces-impl</artifactId>
                     <version>${jsf-myfaces.version}</version>
-                </dependency>
-                <dependency>
-                    <groupId>javax.enterprise</groupId>
-                    <artifactId>cdi-api</artifactId>
-                    <version>${cdi.version}</version>
                 </dependency>
             </dependencies>
             <!-- Enable listener in web.xml -->

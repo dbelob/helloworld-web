@@ -18,46 +18,45 @@
  */
 package acme;
 
+import javax.enterprise.context.RequestScoped;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.RequestScoped;
+import javax.faces.context.FacesContext;
+//import javax.inject.Named;
 
 /**
  * A typical simple backing bean, that is backed to <code>helloWorld.xhtml</code>
  */
 @ManagedBean(name = "helloWorld")
+//@Named("helloWorld")
 @RequestScoped
-public class HelloWorldController
-{
-
-    //properties
-    private String name;
-
-    /**
-     * default empty constructor
-     */
-    public HelloWorldController()
-    {
+public class HelloWorldController {
+    public HelloWorldController() {
     }
 
     /**
-     * Method that is backed to a submit button of a form.
+     * Provides a convenient means of determining the JSF specification version.
+     *
+     * @return JSF Specification version, e.g. 2.1
      */
-    public String send()
-    {
-        //do real logic, return a string which will be used for the navigation system of JSF
-        return "page2.xhtml";
+    public String getSpecificationVersion() {
+        return FacesContext.getCurrentInstance().getClass().getPackage().getSpecificationVersion();
     }
 
-    //-------------------getter & setter
-
-    public String getName()
-    {
-        return name;
+    /**
+     * Provides a convenient means of determining the JSF implementation version.
+     *
+     * @return JSF Implementation version, e.g. 2.1.26
+     */
+    public String getImplementationVersion() {
+        return FacesContext.getCurrentInstance().getClass().getPackage().getImplementationVersion();
     }
 
-    public void setName(String name)
-    {
-        this.name = name;
+    /**
+     * Provides a convenient means of determining the JSF implementation Title.
+     *
+     * @return JSF implementation title, e.g. Mojarra.
+     */
+    public String getImplementationTitle() {
+        return FacesContext.getCurrentInstance().getClass().getPackage().getImplementationTitle();
     }
-
 }
