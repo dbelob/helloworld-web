@@ -20,6 +20,32 @@
     </properties>
 
     <build>
+        <!-- Filter web.xml to enable/disable listener -->
+        <resources>
+            <resource>
+                <directory>src/main/webapp</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**/web.xml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/webapp</directory>
+                <filtering>false</filtering>
+                <excludes>
+                    <exclude>**/web.xml</exclude>
+                </excludes>
+            </resource>
+        </resources>
+
+        <!--
+          - Run using jetty (MyFaces)
+              mvn clean jetty:run
+              or
+              mvn clean jetty:run -P jsf-myfaces
+          - Run using jetty (Mojarra)
+              mvn clean jetty:run -P jsf-mojarra
+         -->
         <plugins>
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
@@ -31,6 +57,7 @@
                     </webApp>
                     <stopKey>foo</stopKey>
                     <stopPort>9999</stopPort>
+                    <webXml>target/classes/WEB-INF/web.xml</webXml>
                 </configuration>
             </plugin>
 
