@@ -40,6 +40,7 @@
         <module>helloworld-web-spring-boot-mvc</module>
         <module>helloworld-web-spring-boot-webflux</module>
         <module>helloworld-web-jsf</module>
+        <module>helloworld-web-jsf-mojarra</module>
         <module>helloworld-web-wicket</module>
     </modules>
 
