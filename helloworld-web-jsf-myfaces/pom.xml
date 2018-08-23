@@ -15,6 +15,7 @@
 
     <properties>
         <jsf-myfaces.version>2.3.1</jsf-myfaces.version>
+        <cdi.version>2.0</cdi.version>
         <weld.version>3.0.5.Final</weld.version>
     </properties>
 
@@ -30,7 +31,16 @@
                     </webApp>
                     <stopKey>foo</stopKey>
                     <stopPort>9999</stopPort>
+                    <contextXml>src/main/webapp/WEB-INF/jetty-context.xml</contextXml>
+                    <jettyXml>src/main/webapp/WEB-INF/jetty-env.xml</jettyXml>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.jboss.weld.servlet</groupId>
+                        <artifactId>weld-servlet-shaded</artifactId>
+                        <version>${weld.version}</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
@@ -44,9 +54,10 @@
 
         <!-- CDI -->
         <dependency>
-            <groupId>org.jboss.weld.servlet</groupId>
-            <artifactId>weld-servlet-shaded</artifactId>
-            <version>${weld.version}</version>
+            <groupId>javax.enterprise</groupId>
+            <artifactId>cdi-api</artifactId>
+            <version>${cdi.version}</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>
