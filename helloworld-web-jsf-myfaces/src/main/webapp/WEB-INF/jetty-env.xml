@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Configure PUBLIC "-" "http://www.eclipse.org/jetty/configure_9_0.dtd">
 <Configure id="webAppCtx" class="org.eclipse.jetty.webapp.WebAppContext">
+    <Call name="prependServerClass">
+        <Arg>-org.eclipse.jetty.server.handler.ContextHandler</Arg>
+    </Call>
+
+    <Call name="prependServerClass">
+        <Arg>-org.eclipse.jetty.servlet.FilterHolder</Arg>
+    </Call>
+
+    <Call name="prependServerClass">
+        <Arg>-org.eclipse.jetty.servlet.ServletContextHandler</Arg>
+    </Call>
+
+    <Call name="prependServerClass">
+        <Arg>-org.eclipse.jetty.servlet.ServletHolder</Arg>
+    </Call>
+
     <New id="BeanManager" class="org.eclipse.jetty.plus.jndi.Resource">
         <Arg>
             <Ref id="webAppCtx" />
