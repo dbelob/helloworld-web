@@ -15,7 +15,6 @@
 
     <properties>
         <jsf-myfaces.version>2.3.1</jsf-myfaces.version>
-        <cdi.version>2.0</cdi.version>
         <weld.version>2.4.7.Final</weld.version>
     </properties>
 
@@ -31,7 +30,6 @@
                     </webApp>
                     <stopKey>foo</stopKey>
                     <stopPort>9999</stopPort>
-                    <!--<contextXml>src/main/webapp/WEB-INF/jetty-env.xml</contextXml>-->
                 </configuration>
             </plugin>
         </plugins>

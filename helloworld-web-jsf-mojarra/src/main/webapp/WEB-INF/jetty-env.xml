@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Configure PUBLIC "-" "http://www.eclipse.org/jetty/configure_9_0.dtd">
+<Configure id="webAppCtx" class="org.eclipse.jetty.webapp.WebAppContext">
+    <Call name="prependServerClass">
+        <Arg>-org.eclipse.jetty.server.handler.ContextHandler</Arg>
+    </Call>
+
+    <Call name="prependServerClass">
+        <Arg>-org.eclipse.jetty.servlet.FilterHolder</Arg>
+    </Call>
+
+    <Call name="prependServerClass">
+        <Arg>-org.eclipse.jetty.servlet.ServletContextHandler</Arg>
+    </Call>
+
+    <Call name="prependServerClass">
+        <Arg>-org.eclipse.jetty.servlet.ServletHolder</Arg>
+    </Call>
+
+    <New id="BeanManager" class="org.eclipse.jetty.plus.jndi.Resource">
+        <Arg>
+            <Ref id="webAppCtx" />
+        </Arg>
+        <Arg>BeanManager</Arg>
+        <Arg>
+            <New class="javax.naming.Reference">
+                <Arg>javax.enterprise.inject.spi.BeanManager</Arg>
+                <Arg>org.jboss.weld.resources.ManagerObjectFactory</Arg>
+                <Arg/>
+            </New>
+        </Arg>
+    </New>
+
+    <Get class="java.lang.System" name="out">
+        <Call name="println">
+            <Arg>*** JETTY-ENV loaded</Arg>
+        </Call>
+    </Get>
+</Configure>
