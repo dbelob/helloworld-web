@@ -15,7 +15,8 @@
         <clean.plugin.version>3.1.0</clean.plugin.version>
         <compiler.plugin.version>3.7.0</compiler.plugin.version>
         <war.plugin.version>3.2.1</war.plugin.version>
-        <jetty.maven.version>9.4.10.v20180503</jetty.maven.version>
+        <jetty.plugin.version>9.4.10.v20180503</jetty.plugin.version>
+        <gwt.plugin.version>1.0-rc-9</gwt.plugin.version>
 
         <spring.version>5.0.8.RELEASE</spring.version>
         <servlet.api.version>4.0.1</servlet.api.version>
@@ -24,6 +25,7 @@
         <h2.version>1.4.197</h2.version>
         <hibernate.validator.version>6.0.10.Final</hibernate.validator.version>
         <jstl.version>1.2</jstl.version>
+        <gwt.version>2.8.2</gwt.version>
         <mockito.version>2.18.3</mockito.version>
         <hamcrest.version>1.3</hamcrest.version>
         <slf4j.version>1.7.25</slf4j.version>
@@ -41,6 +43,9 @@
         <module>helloworld-web-spring-boot-webflux</module>
         <module>helloworld-web-jsf-myfaces</module>
         <module>helloworld-web-jsf-mojarra</module>
+        <module>helloworld-web-gwt-client</module>
+        <module>helloworld-web-gwt-shared</module>
+        <module>helloworld-web-gwt-server</module>
         <module>helloworld-web-wicket</module>
     </modules>
 
@@ -75,7 +80,47 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>${war.plugin.version}</version>
             </plugin>
+            <plugin>
+                <groupId>net.ltgt.gwt.maven</groupId>
+                <artifactId>gwt-maven-plugin</artifactId>
+                <inherited>false</inherited>
+                <configuration>
+                    <launcherDir>${project.build.directory}/gwt/launcherDir</launcherDir>
+                </configuration>
+            </plugin>
         </plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.eclipse.jetty</groupId>
+                    <artifactId>jetty-maven-plugin</artifactId>
+                    <version>${jetty.plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>net.ltgt.gwt.maven</groupId>
+                    <artifactId>gwt-maven-plugin</artifactId>
+                    <version>${gwt.plugin.version}</version>
+                    <extensions>true</extensions>
+                    <configuration>
+                        <sourceLevel>project.build.javaVersion</sourceLevel>
+                        <failOnError>true</failOnError>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-source-plugin</artifactId>
+                    <version>3.0.1</version>
+                    <executions>
+                        <execution>
+                            <id>attach-sources</id>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>jar-no-fork</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
     </build>
 
     <dependencyManagement>
@@ -136,6 +181,15 @@
                 <groupId>org.hibernate.validator</groupId>
                 <artifactId>hibernate-validator</artifactId>
                 <version>${hibernate.validator.version}</version>
+            </dependency>
+
+            <!-- GWT -->
+            <dependency>
+                <groupId>com.google.gwt</groupId>
+                <artifactId>gwt</artifactId>
+                <version>${gwt.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
 
             <!-- Logging -->
