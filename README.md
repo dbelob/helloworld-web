@@ -11,6 +11,7 @@ Creating a simple web application on *Java* in various ways:
 1. Spring Boot (Spring WebFlux)
 1. JavaServer Faces (Apache MyFaces)
 1. JavaServer Faces (Oracle Mojarra)
+1. GWT
 1. Wicket
 
 ## Requirements
@@ -25,12 +26,15 @@ Creating a simple web application on *Java* in various ways:
 
 1. From the command line with Maven:
 
-    `mvn jetty:run`
-
+    `mvn jetty:run`  
     (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-java-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*, *helloworld-web-jsf-myfaces*, *helloworld-web-jsf-mojarra*, *helloworld-web-wicket* modules)
 
-    `mvn spring-boot:run`
-
+    `mvn spring-boot:run`  
     (for *helloworld-web-spring-boot-mvc*, *helloworld-web-spring-boot-webflux* modules)
+
+    `mvn gwt:codeserver`  
+    (in one terminal window for *helloworld-web-gwt-client* module)  
+    `mvn jetty:run`  
+    (in one terminal window for *helloworld-web-gwt-server* module)    
 
 1. Access the deployed web application at: http://localhost:8080
