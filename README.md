@@ -35,6 +35,6 @@ Creating a simple web application on *Java* in various ways:
     `mvn gwt:codeserver`  
     (in one terminal window for *helloworld-web-gwt-client* module)  
     `mvn jetty:run`  
-    (in one terminal window for *helloworld-web-gwt-server* module)    
+    (in another terminal window for *helloworld-web-gwt-server* module)    
 
 1. Access the deployed web application at: http://localhost:8080
