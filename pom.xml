@@ -102,7 +102,7 @@
                     <version>${gwt.plugin.version}</version>
                     <extensions>true</extensions>
                     <configuration>
-                        <sourceLevel>project.build.javaVersion</sourceLevel>
+                        <sourceLevel>${project.build.javaVersion}</sourceLevel>
                         <failOnError>true</failOnError>
                     </configuration>
                 </plugin>
@@ -148,7 +148,6 @@
                 <groupId>javax.servlet</groupId>
                 <artifactId>javax.servlet-api</artifactId>
                 <version>${servlet.api.version}</version>
-                <scope>provided</scope>
             </dependency>
             <dependency>
                 <groupId>javax.servlet.jsp</groupId>
