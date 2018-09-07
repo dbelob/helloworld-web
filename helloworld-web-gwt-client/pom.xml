@@ -1,49 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>acme.helloworld-web</groupId>
-    <artifactId>helloworld-web-parent</artifactId>
+    <parent>
+        <groupId>acme.helloworld-web</groupId>
+        <artifactId>helloworld-web-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>helloworld-web-gwt-client</artifactId>
     <version>1.0-SNAPSHOT</version>
-  </parent>
+    <packaging>gwt-app</packaging>
+    <name>HelloWorld GWT (Client)</name>
 
-  <artifactId>helloworld-web-gwt-client</artifactId>
-  <packaging>gwt-app</packaging>
-  <name>HelloWorld GWT (Client)</name>
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>helloworld-web-gwt-shared</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>helloworld-web-gwt-shared</artifactId>
+            <version>${project.version}</version>
+            <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>com.google.gwt</groupId>
+            <artifactId>gwt-user</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.gwt</groupId>
+            <artifactId>gwt-dev</artifactId>
+        </dependency>
+    </dependencies>
 
-  <dependencies>
-    <dependency>
-      <groupId>${project.groupId}</groupId>
-      <artifactId>helloworld-web-gwt-shared</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>${project.groupId}</groupId>
-      <artifactId>helloworld-web-gwt-shared</artifactId>
-      <version>${project.version}</version>
-      <classifier>sources</classifier>
-    </dependency>
-    <dependency>
-      <groupId>com.google.gwt</groupId>
-      <artifactId>gwt-user</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>com.google.gwt</groupId>
-      <artifactId>gwt-dev</artifactId>
-    </dependency>
-  </dependencies>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>net.ltgt.gwt.maven</groupId>
-        <artifactId>gwt-maven-plugin</artifactId>
-        <configuration>
-          <moduleName>acme.hello.App</moduleName>
-          <moduleShortName>app</moduleShortName>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>net.ltgt.gwt.maven</groupId>
+                <artifactId>gwt-maven-plugin</artifactId>
+                <configuration>
+                    <moduleName>acme.hello.App</moduleName>
+                    <moduleShortName>app</moduleShortName>
+                    <launcherDir>${basedir}/target/gwt/launcherDir</launcherDir>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

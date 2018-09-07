@@ -17,6 +17,7 @@
         <war.plugin.version>3.2.1</war.plugin.version>
         <jetty.plugin.version>9.4.10.v20180503</jetty.plugin.version>
         <gwt.plugin.version>1.0-rc-9</gwt.plugin.version>
+        <source.plugin.version>3.0.1</source.plugin.version>
 
         <spring.version>5.0.8.RELEASE</spring.version>
         <servlet.api.version>4.0.1</servlet.api.version>
@@ -80,14 +81,6 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>${war.plugin.version}</version>
             </plugin>
-            <plugin>
-                <groupId>net.ltgt.gwt.maven</groupId>
-                <artifactId>gwt-maven-plugin</artifactId>
-                <inherited>false</inherited>
-                <configuration>
-                    <launcherDir>${project.build.directory}/gwt/launcherDir</launcherDir>
-                </configuration>
-            </plugin>
         </plugins>
         <pluginManagement>
             <plugins>
@@ -108,7 +101,7 @@
                 </plugin>
                 <plugin>
                     <artifactId>maven-source-plugin</artifactId>
-                    <version>3.0.1</version>
+                    <version>${source.plugin.version}</version>
                     <executions>
                         <execution>
                             <id>attach-sources</id>
