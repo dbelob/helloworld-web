@@ -47,6 +47,7 @@
         <module>helloworld-web-gwt-client</module>
         <module>helloworld-web-gwt-shared</module>
         <module>helloworld-web-gwt-server</module>
+        <module>helloworld-web-struts</module>
         <module>helloworld-web-wicket</module>
     </modules>
 
