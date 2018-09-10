@@ -8,6 +8,7 @@
 	<constant name="struts.devMode" value="true" />
 
 	<package name="basicstruts2" extends="struts-default">
+		<default-action-ref name="index" />
 
         <!-- If no class attribute is specified the framework will assume success and 
         render the result index.jsp -->
@@ -18,7 +19,7 @@
 		
 		<!-- If the URL is hello.action then call the execute method of class HelloWorldAction.
 		If the result returned by the execute method is success render the HelloWorld.jsp -->
-		<action name="hello" class="org.apache.struts.helloworld.action.HelloWorldAction" method="execute">
+		<action name="hello" class="acme.action.HelloWorldAction" method="execute">
 			<result name="success">/HelloWorld.jsp</result>
 		</action>
 
