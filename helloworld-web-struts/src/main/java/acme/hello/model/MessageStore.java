@@ -1,4 +1,4 @@
-package acme.model;
+package acme.hello.model;
 
 /**
  * Model class that stores a message.

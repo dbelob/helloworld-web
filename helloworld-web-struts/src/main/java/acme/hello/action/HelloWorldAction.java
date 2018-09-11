@@ -1,6 +1,6 @@
-package acme.action;
+package acme.hello.action;
 
-import acme.model.MessageStore;
+import acme.hello.model.MessageStore;
 import com.opensymphony.xwork2.ActionSupport;
 
 /**

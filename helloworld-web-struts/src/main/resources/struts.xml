@@ -18,7 +18,7 @@
 
         <!-- If the URL is hello.action then call the execute method of class HelloWorldAction.
         If the result returned by the execute method is success render the HelloWorld.jsp -->
-        <action name="hello" class="acme.action.HelloWorldAction" method="execute">
+        <action name="hello" class="acme.hello.action.HelloWorldAction" method="execute">
             <result name="success">/HelloWorld.jsp</result>
         </action>
 
