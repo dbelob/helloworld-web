@@ -13,6 +13,7 @@ Creating a simple web application on *Java* in various ways:
 1. JavaServer Faces (Oracle Mojarra)
 1. GWT
 1. Struts
+1. Dropwizard
 1. Wicket
 
 ## Requirements
