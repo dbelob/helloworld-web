@@ -11,7 +11,7 @@ Creating a simple web application on *Java* in various ways:
 1. Spring Boot (Spring WebFlux)
 1. JavaServer Faces (Apache MyFaces)
 1. JavaServer Faces (Oracle Mojarra)
-1. GWT
+1. Google Web Toolkit
 1. Struts
 1. Dropwizard
 1. Wicket
@@ -37,6 +37,10 @@ Creating a simple web application on *Java* in various ways:
     `mvn gwt:codeserver`  
     (in one terminal window for *helloworld-web-gwt-client* module)  
     `mvn jetty:run`  
-    (in another terminal window for *helloworld-web-gwt-server* module)    
+    (in another terminal window for *helloworld-web-gwt-server* module)
+    
+    `mvn package`  
+    `java -jar target/hello-world.jar server hello-world.yml`  
+    (for *helloworld-web-dropwizard* module)
 
 1. Access the deployed web application at: http://localhost:8080
