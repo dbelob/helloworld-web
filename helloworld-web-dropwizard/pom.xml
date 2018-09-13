@@ -14,6 +14,8 @@
     <name>HelloWorld Dropwizard</name>
 
     <properties>
+        <dropwizard.launcher.plugin.version>1.0.1</dropwizard.launcher.plugin.version>
+
         <dropwizard.version>1.3.5</dropwizard.version>
         <validation.api.version>2.0.1.Final</validation.api.version>
         <jetty.io.version>9.4.11.v20180605</jetty.io.version>
@@ -126,6 +128,15 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.dhatim</groupId>
+                <artifactId>dropwizard-launcher-maven-plugin</artifactId>
+                <version>${dropwizard.launcher.plugin.version}</version>
+                <configuration>
+                    <jarFile>${project.build.directory}/${project.build.finalName}.jar</jarFile>
+                    <confFile>hello-world.yml</confFile>
+                </configuration>
             </plugin>
         </plugins>
     </build>
