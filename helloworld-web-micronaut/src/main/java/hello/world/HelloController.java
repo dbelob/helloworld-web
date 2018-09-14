@@ -7,6 +7,6 @@ import io.micronaut.http.annotation.Get;
 public class HelloController {
     @Get
     public String index() {
-        return "Hello World";
+        return "Hello, world!";
     }
 }

@@ -15,6 +15,7 @@ Creating a simple web application on *Java* in various ways:
 1. Struts
 1. Dropwizard
 1. Wicket
+1. Micronaut
 
 ## Requirements
 
@@ -42,5 +43,9 @@ Creating a simple web application on *Java* in various ways:
     `mvn package`  
     `java -jar target/hello-world.jar server hello-world.yml`  
     (for *helloworld-web-dropwizard* module)
+    
+    `mvn package`  
+    `java -jar target/hello-world.jar`  
+    (for *helloworld-web-micronaut* module)
 
 1. Access the deployed web application at: http://localhost:8080

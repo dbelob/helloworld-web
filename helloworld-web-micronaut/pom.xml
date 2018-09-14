@@ -13,10 +13,8 @@
     <name>HelloWorld Micronaut</name>
 
     <properties>
-        <exec.mainClass>hello.world.Application</exec.mainClass>
         <micronaut.version>1.0.0.M4</micronaut.version>
-        <jdk.version>1.8</jdk.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <exec.mainClass>hello.world.Application</exec.mainClass>
     </properties>
 
     <repositories>
@@ -67,23 +65,24 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version>
+            <version>${logback.version}</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
 
     <build>
+        <finalName>hello-world</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.1.0</version>
+                <version>${shade.plugin.version}</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -104,7 +103,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
-                <version>1.6.0</version>
+                <version>${exec.plugin.version}</version>
                 <configuration>
                     <executable>java</executable>
                     <arguments>
@@ -122,10 +121,10 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.7.0</version>
+                    <version>${compiler.plugin.version}</version>
                     <configuration>
-                        <source>${jdk.version}</source>
-                        <target>${jdk.version}</target>
+                        <source>${project.build.javaVersion}</source>
+                        <target>${project.build.javaVersion}</target>
                         <compilerArgs>
                             <arg>-parameters</arg>
                         </compilerArgs>
