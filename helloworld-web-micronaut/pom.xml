@@ -14,7 +14,7 @@
 
     <properties>
         <micronaut.version>1.0.0.M4</micronaut.version>
-        <exec.mainClass>hello.world.Application</exec.mainClass>
+        <exec.mainClass>acme.hello.Application</exec.mainClass>
     </properties>
 
     <repositories>

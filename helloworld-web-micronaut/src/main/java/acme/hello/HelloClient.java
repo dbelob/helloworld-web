@@ -1,4 +1,4 @@
-package hello.world;
+package acme.hello;
 
 import io.micronaut.http.annotation.Get;
 import io.micronaut.http.client.Client;
