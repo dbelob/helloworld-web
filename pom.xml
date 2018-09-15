@@ -58,6 +58,8 @@
         <module>helloworld-web-dropwizard</module>
         <module>helloworld-web-wicket</module>
         <module>helloworld-web-micronaut</module>
+        <module>helloworld-web-microprofile-hammock</module>
+        <module>helloworld-web-microprofile-wildfly-swarm</module>
     </modules>
 
     <build>

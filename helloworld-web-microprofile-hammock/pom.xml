@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>acme.helloworld-web</groupId>
+        <artifactId>helloworld-web-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>helloworld-web-microprofile-hammock</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>HelloWorld MicroProfile (Hammock)</name>
+
+    <properties>
+        <javaee.version>7.0</javaee.version>
+        <resteasy.version>3.0.18.Final</resteasy.version>
+        <wildfly-swarm.version>2016.12.0</wildfly-swarm.version>
+        <jsonunit.version>1.12.1</jsonunit.version>
+        <jackson.version>2.3.1</jackson.version>
+        <jboss-logging.version>3.3.0.Final</jboss-logging.version>
+        <hammock.version>0.4.0</hammock.version>
+    </properties>
+
+    <dependencies>
+        <!-- JBoss Logging required due to older version from resteasy client -->
+        <dependency>
+            <groupId>org.jboss.logging</groupId>
+            <artifactId>jboss-logging</artifactId>
+            <version>${jboss-logging.version}</version>
+        </dependency>
+
+        <!-- Java EE -->
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>${javaee.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.javacrumbs.json-unit</groupId>
+            <artifactId>json-unit-fluent</artifactId>
+            <version>${jsonunit.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-client</artifactId>
+            <version>${resteasy.version}</version>
+        </dependency>
+
+        <!-- Hammock -->
+        <dependency>
+            <groupId>ws.ament.hammock</groupId>
+            <artifactId>dist-microprofile</artifactId>
+            <version>${hammock.version}</version>
+        </dependency>
+    </dependencies>
+</project>
