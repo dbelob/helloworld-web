@@ -24,6 +24,7 @@
         <javadoc.plugin.version>3.0.1</javadoc.plugin.version>
         <project.info.reports.plugin.version>3.0.0</project.info.reports.plugin.version>
         <exec.plugin.version>1.6.0</exec.plugin.version>
+        <dependency.plugin.version>2.10</dependency.plugin.version>
 
         <spring.version>5.0.8.RELEASE</spring.version>
         <servlet.api.version>4.0.1</servlet.api.version>
