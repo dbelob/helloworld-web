@@ -2,20 +2,27 @@
 
 Creating a simple web application on *Java* in various ways:
 
-1. HTTP Servlet (`web.xml` file)
-1. HTTP Servlet (*@WebServlet* annotation)
-1. HTTP Servlet (*ServletContainerInitializer* interface implementation)
-1. Spring MVC (`web.xml` file)
-1. Spring MVC (*Java* configuration)
-1. Spring Boot (Spring MVC)
-1. Spring Boot (Spring WebFlux)
-1. JavaServer Faces (Apache MyFaces)
-1. JavaServer Faces (Oracle Mojarra)
-1. Google Web Toolkit
-1. Struts
-1. Dropwizard
-1. Wicket
-1. Micronaut
+1. HTTP Servlet:
+   * `web.xml` file
+   * *@WebServlet* annotation
+   * *ServletContainerInitializer* interface implementation
+1. [Spring MVC](https://spring.io/projects/spring-framework):
+   * `web.xml` file
+   * *Java* configuration
+1. [Spring Boot](https://spring.io/projects/spring-boot):
+   * Spring MVC
+   * Spring WebFlux
+1. [JavaServer Faces](https://javaee.github.io/javaserverfaces-spec/):
+   * [Apache MyFaces](http://myfaces.apache.org)
+   * [Oracle Mojarra](http://javaserverfaces.java.net)
+1. [Google Web Toolkit](http://www.gwtproject.org)
+1. [Struts](https://struts.apache.org)
+1. [Dropwizard](https://www.dropwizard.io)
+1. [Wicket](https://wicket.apache.org)
+1. [Micronaut](http://micronaut.io)
+1. [MicroProfile](https://microprofile.io):
+   * [Hammock](https://hammock-project.github.io)   
+   * [WildFly Swarm](http://wildfly-swarm.io)
 
 ## Requirements
 
@@ -46,6 +53,6 @@ Creating a simple web application on *Java* in various ways:
     
     `mvn package`  
     `java -jar target/hello-world.jar`  
-    (for *helloworld-web-micronaut* module)
+    (for *helloworld-web-micronaut*, *helloworld-web-microprofile-hammock*, *helloworld-web-microprofile-wildfly-swarm* modules)
 
 1. Access the deployed web application at: http://localhost:8080
