@@ -53,6 +53,10 @@ Creating a simple web application on *Java* in various ways:
     
     `mvn package`  
     `java -jar target/hello-world.jar`  
-    (for *helloworld-web-micronaut*, *helloworld-web-microprofile-hammock*, *helloworld-web-microprofile-wildfly-swarm* modules)
+    (for *helloworld-web-micronaut*, *helloworld-web-microprofile-hammock* modules)
+    
+    `mvn package`  
+    `java -jar target/hello-world-swarm.jar`  
+    (for *helloworld-web-microprofile-wildfly-swarm* module)
 
 1. Access the deployed web application at: http://localhost:8080

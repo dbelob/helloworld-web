@@ -77,7 +77,7 @@
     </dependencies>
 
     <build>
-        <!--<finalName>hello-world</finalName>-->
+        <finalName>hello-world</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
