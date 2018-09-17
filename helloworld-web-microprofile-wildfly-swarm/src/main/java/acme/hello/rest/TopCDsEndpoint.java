@@ -15,7 +15,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.eclipse.microprofile.sample.canonical.rest;
+package acme.hello.rest;
+
+import acme.hello.utils.QLogger;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
@@ -25,9 +27,6 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-
-import org.eclipse.microprofile.sample.canonical.utils.QLogger;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -36,7 +35,6 @@ import java.util.logging.Logger;
 @Path("/")
 @RequestScoped
 public class TopCDsEndpoint {
-
     @Inject
     @QLogger
     private Logger logger;

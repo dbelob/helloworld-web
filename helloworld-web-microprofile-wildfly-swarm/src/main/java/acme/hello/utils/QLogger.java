@@ -15,18 +15,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.eclipse.microprofile.sample.canonical.utils;
+package acme.hello.utils;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.inject.Produces;
-import javax.enterprise.inject.spi.InjectionPoint;
+import javax.inject.Qualifier;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
 
-@ApplicationScoped
-public class ResourceProducer {
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
-    @Produces
-    @QLogger
-    public java.util.logging.Logger produceLogger(final InjectionPoint injectionPoint) {
-        return java.util.logging.Logger.getLogger(injectionPoint.getMember().getDeclaringClass().getName());
-    }
+@Qualifier
+@Retention(RUNTIME)
+@Target({ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER, ElementType.TYPE})
+public @interface QLogger {
 }

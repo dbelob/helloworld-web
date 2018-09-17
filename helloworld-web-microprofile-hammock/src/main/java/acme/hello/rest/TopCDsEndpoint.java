@@ -35,7 +35,6 @@ import java.util.logging.Logger;
 @Path("/")
 @RequestScoped
 public class TopCDsEndpoint {
-
     @Inject
     @QLogger
     private Logger logger;
