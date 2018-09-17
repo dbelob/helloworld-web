@@ -44,8 +44,8 @@
     <modules>
         <module>helloworld-web-servlet-xml</module>
         <module>helloworld-web-servlet-annotation</module>
-        <module>helloworld-web-servlet-java-jar</module>
-        <module>helloworld-web-servlet-java-war</module>
+        <module>helloworld-web-servlet-interface-jar</module>
+        <module>helloworld-web-servlet-interface-war</module>
         <module>helloworld-web-spring-mvc-xml</module>
         <module>helloworld-web-spring-mvc-java</module>
         <module>helloworld-web-spring-boot-mvc</module>
@@ -133,7 +133,7 @@
         <dependencies>
             <dependency>
                 <groupId>acme.helloworld-web</groupId>
-                <artifactId>helloworld-web-servlet-java-jar</artifactId>
+                <artifactId>helloworld-web-servlet-interface-jar</artifactId>
                 <version>${project.version}</version>
             </dependency>
 

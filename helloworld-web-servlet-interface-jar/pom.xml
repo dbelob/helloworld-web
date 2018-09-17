@@ -8,9 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>helloworld-web-servlet-java-jar</artifactId>
+    <artifactId>helloworld-web-servlet-interface-jar</artifactId>
     <packaging>jar</packaging>
-    <name>HelloWorld HTTP Servlet (ServletContainerInitializer JAR)</name>
+    <name>HelloWorld HTTP Servlet (interface JAR)</name>
 
     <dependencies>
         <!-- JEE -->

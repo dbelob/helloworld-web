@@ -8,9 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>helloworld-web-servlet-java-war</artifactId>
+    <artifactId>helloworld-web-servlet-interface-war</artifactId>
     <packaging>war</packaging>
-    <name>HelloWorld HTTP Servlet (ServletContainerInitializer WAR)</name>
+    <name>HelloWorld HTTP Servlet (interface WAR)</name>
 
     <build>
         <plugins>
@@ -31,7 +31,7 @@
     <dependencies>
         <dependency>
             <groupId>acme.helloworld-web</groupId>
-            <artifactId>helloworld-web-servlet-java-jar</artifactId>
+            <artifactId>helloworld-web-servlet-interface-jar</artifactId>
         </dependency>
 
         <!-- JEE -->
