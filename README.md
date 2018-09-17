@@ -37,7 +37,7 @@ Creating a simple web application on *Java* in various ways:
 1. From the command line with Maven:
 
     `mvn jetty:run`  
-    (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-java-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*, *helloworld-web-jsf-myfaces*, *helloworld-web-jsf-mojarra*, *helloworld-web-struts*, *helloworld-web-wicket* modules)
+    (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-interface-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*, *helloworld-web-jsf-myfaces*, *helloworld-web-jsf-mojarra*, *helloworld-web-struts*, *helloworld-web-wicket* modules)
 
     `mvn spring-boot:run`  
     (for *helloworld-web-spring-boot-mvc*, *helloworld-web-spring-boot-webflux* modules)
