@@ -15,18 +15,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.eclipse.microprofile.sample.canonical.utils;
+package acme.hello.rest;
 
 import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.inject.Produces;
-import javax.enterprise.inject.spi.InjectionPoint;
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
 
+@ApplicationPath("/")
 @ApplicationScoped
-public class ResourceProducer {
-
-    @Produces
-    @QLogger
-    public java.util.logging.Logger produceLogger(final InjectionPoint injectionPoint) {
-        return java.util.logging.Logger.getLogger(injectionPoint.getMember().getDeclaringClass().getName());
-    }
+public class RestApplication extends Application {
 }
