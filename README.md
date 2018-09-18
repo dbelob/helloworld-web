@@ -19,6 +19,7 @@ Creating a simple web application on *Java* in various ways:
 1. [Struts](https://struts.apache.org)
 1. [Dropwizard](https://www.dropwizard.io)
 1. [Wicket](https://wicket.apache.org)
+1. [Ratpack](https://ratpack.io)
 1. [Micronaut](http://micronaut.io)
 1. [MicroProfile](https://microprofile.io):
    * [Hammock](https://hammock-project.github.io)   
@@ -53,7 +54,7 @@ Creating a simple web application on *Java* in various ways:
     
     `mvn package`  
     `java -jar target/hello-world.jar`  
-    (for *helloworld-web-micronaut*, *helloworld-web-microprofile-hammock* modules)
+    (for *helloworld-web-ratpack*, *helloworld-web-micronaut*, *helloworld-web-microprofile-hammock* modules)
     
     `mvn package`  
     `java -jar target/hello-world-swarm.jar`  
