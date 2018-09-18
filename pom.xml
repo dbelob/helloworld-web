@@ -62,6 +62,7 @@
         <module>helloworld-web-micronaut</module>
         <module>helloworld-web-microprofile-hammock</module>
         <module>helloworld-web-microprofile-wildfly-swarm</module>
+        <module>helloworld-web-microprofile-helidon</module>
     </modules>
 
     <build>
