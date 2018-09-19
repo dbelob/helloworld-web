@@ -8,7 +8,7 @@
           href="<c:url value="/resources/style.css" />">
 </head>
 <body>
-<h1>Hello, world!</h1>
+<h1>Hello, World!</h1>
 <p>Spring MVC (Java configuration)</p>
 </body>
 </html>

@@ -11,6 +11,6 @@ public class HelloClientTest {
         EmbeddedServer embeddedServer = ApplicationContext.run(EmbeddedServer.class);
         HelloClient client = embeddedServer.getApplicationContext().getBean(HelloClient.class);
 
-        Assert.assertEquals("Hello, world!", client.hello().blockingGet());
+        Assert.assertEquals("Hello, World!", client.hello().blockingGet());
     }
 }

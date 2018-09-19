@@ -13,6 +13,6 @@ public class HelloControllerTest {
         EmbeddedServer embeddedServer = ApplicationContext.run(EmbeddedServer.class);
         HttpClient client = HttpClient.create(embeddedServer.getURL());
 
-        Assert.assertEquals("Hello, world!", client.toBlocking().retrieve(HttpRequest.GET("/")));
+        Assert.assertEquals("Hello, World!", client.toBlocking().retrieve(HttpRequest.GET("/")));
     }
 }

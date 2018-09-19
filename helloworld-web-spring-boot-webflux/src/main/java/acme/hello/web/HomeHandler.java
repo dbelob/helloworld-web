@@ -13,6 +13,6 @@ public class HomeHandler {
         return ServerResponse
                 .ok()
                 .contentType(MediaType.TEXT_PLAIN)
-                .body(BodyInserters.fromObject("Hello, world!"));
+                .body(BodyInserters.fromObject("Hello, World!"));
     }
 }

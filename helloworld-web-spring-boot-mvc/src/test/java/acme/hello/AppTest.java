@@ -18,6 +18,6 @@ public class AppTest {
     @Test
     public void helloTest() {
         String body = this.restTemplate.getForObject("/", String.class);
-        assertThat(body).contains("Hello, world!");
+        assertThat(body).contains("Hello, World!");
     }
 }

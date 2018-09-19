@@ -16,7 +16,7 @@ public class ApplicationTest {
 
     @Test
     public void staticTextTest() {
-        assertEquals("Hello, world!",
+        assertEquals("Hello, World!",
                 appUnderTest.getHttpClient().getText("/"));
     }
 
