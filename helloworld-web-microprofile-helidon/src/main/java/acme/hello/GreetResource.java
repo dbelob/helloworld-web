@@ -13,17 +13,17 @@ import javax.ws.rs.core.MediaType;
  * A simple JAX-RS resource to greet you. Examples:
  * <p>
  * Get default greeting message:
- * curl -X GET http://localhost:8080/greet
+ * curl -X GET http://localhost:8080
  * <p>
  * Get greeting message for Joe:
- * curl -X GET http://localhost:8080/greet/Joe
+ * curl -X GET http://localhost:8080/Joe
  * <p>
  * Change greeting
- * curl -X PUT http://localhost:8080/greet/greeting/Hola
+ * curl -X PUT http://localhost:8080/greeting/Hola
  * <p>
  * The message is returned as a JSON object.
  */
-@Path("/greet")
+@Path("/")
 @RequestScoped
 public class GreetResource {
 
@@ -40,7 +40,6 @@ public class GreetResource {
      */
     @Inject
     public GreetResource(@ConfigProperty(name = "app.greeting") final String greetingConfig) {
-
         if (this.greeting == null) {
             this.greeting = greetingConfig;
         }
@@ -56,7 +55,7 @@ public class GreetResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public JsonObject getDefaultMessage() {
-        String msg = String.format("%s %s!", greeting, "World");
+        String msg = String.format("%s, %s!", greeting, "world");
 
         JsonObject returnObject = Json.createObjectBuilder()
                 .add("message", msg)
@@ -75,7 +74,7 @@ public class GreetResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public JsonObject getMessage(@PathParam("name") final String name) {
-        String msg = String.format("%s %s!", greeting, name);
+        String msg = String.format("%s, %s!", greeting, name);
 
         JsonObject returnObject = Json.createObjectBuilder()
                 .add("message", msg)

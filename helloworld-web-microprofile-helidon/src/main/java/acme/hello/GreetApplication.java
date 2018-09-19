@@ -13,7 +13,6 @@ import java.util.Set;
 @ApplicationScoped
 @ApplicationPath("/")
 public class GreetApplication extends Application {
-    
     @Override
     public Set<Class<?>> getClasses() {
         Set<Class<?>> set = new HashSet<>();
