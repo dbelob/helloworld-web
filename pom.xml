@@ -59,6 +59,8 @@
         <module>helloworld-web-struts</module>
         <module>helloworld-web-dropwizard</module>
         <module>helloworld-web-wicket</module>
+        <module>helloworld-web-lagom-api</module>
+        <module>helloworld-web-lagom-impl</module>
         <module>helloworld-web-ratpack</module>
         <module>helloworld-web-micronaut</module>
         <module>helloworld-web-microprofile-hammock</module>
