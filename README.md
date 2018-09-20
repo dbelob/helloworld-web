@@ -19,6 +19,7 @@ Creating a simple web application on *Java* in various ways:
 1. [Struts](https://struts.apache.org)
 1. [Dropwizard](https://www.dropwizard.io)
 1. [Wicket](https://wicket.apache.org)
+1. [Lagom](https://www.lagomframework.com)
 1. [Ratpack](https://ratpack.io)
 1. [Micronaut](http://micronaut.io)
 1. [MicroProfile](https://microprofile.io):
@@ -52,6 +53,10 @@ Creating a simple web application on *Java* in various ways:
     `mvn package`  
     `java -jar target/hello-world.jar server hello-world.yml`  
     (for *helloworld-web-dropwizard* module)
+    
+    `mvn package`  
+    `mvn lagom:runAll`  
+    (for *helloworld-web-lagom-impl* module)
     
     `mvn package`  
     `java -jar target/hello-world.jar`  
