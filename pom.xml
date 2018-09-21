@@ -40,9 +40,6 @@
         <slf4j.version>1.7.25</slf4j.version>
         <logback.version>1.2.3</logback.version>
         <junit.version>4.12</junit.version>
-        <lagom.version>1.4.8</lagom.version>
-        <scala.binary.version>2.12</scala.binary.version>
-        <lombok.version>1.16.10</lombok.version>
     </properties>
 
     <modules>

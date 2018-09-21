@@ -12,6 +12,12 @@
     <version>1.0-SNAPSHOT</version>
     <name>HelloWorld Lagom (Implementation)</name>
 
+    <properties>
+        <lagom.version>1.4.8</lagom.version>
+        <scala.binary.version>2.12</scala.binary.version>
+        <lombok.version>1.16.10</lombok.version>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -73,8 +79,22 @@
             <plugin>
                 <groupId>com.lightbend.lagom</groupId>
                 <artifactId>lagom-maven-plugin</artifactId>
+                <version>${lagom.version}</version>
                 <configuration>
                     <lagomService>true</lagomService>
+                    <servicePort>8080</servicePort>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${compiler.plugin.version}</version>
+                <configuration>
+                    <source>${project.build.javaVersion}</source>
+                    <target>${project.build.javaVersion}</target>
+                    <compilerArgs>
+                        <arg>-parameters</arg>
+                    </compilerArgs>
                 </configuration>
             </plugin>
         </plugins>

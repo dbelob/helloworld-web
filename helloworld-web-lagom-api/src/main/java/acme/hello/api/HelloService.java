@@ -18,14 +18,20 @@ import static com.lightbend.lagom.javadsl.api.Service.restCall;
 public interface HelloService extends Service {
 
     /**
-     * Example: curl http://localhost:9000/api/hello/Alice
+     * Example: curl http://localhost:9000/Alice
      */
     ServiceCall<NotUsed, String> hello(String id);
+
+    /**
+     * Example: curl http://localhost:9000
+     */
+    ServiceCall<NotUsed, String> helloDefault();
 
     @Override
     default Descriptor descriptor() {
         return named("helloservice").withCalls(
-                restCall(Method.GET, "/api/hello/:id", this::hello)
+                restCall(Method.GET, "/:id", this::hello),
+                restCall(Method.GET, "/", this::helloDefault)
         ).withAutoAcl(true);
     }
 }

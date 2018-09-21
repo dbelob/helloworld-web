@@ -12,6 +12,12 @@
     <version>1.0-SNAPSHOT</version>
     <name>HelloWorld Lagom (API)</name>
 
+    <properties>
+        <lagom.version>1.4.8</lagom.version>
+        <scala.binary.version>2.12</scala.binary.version>
+        <lombok.version>1.16.10</lombok.version>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -44,4 +50,21 @@
             <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${compiler.plugin.version}</version>
+                <configuration>
+                    <source>${project.build.javaVersion}</source>
+                    <target>${project.build.javaVersion}</target>
+                    <compilerArgs>
+                        <arg>-parameters</arg>
+                    </compilerArgs>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

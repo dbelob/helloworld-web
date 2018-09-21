@@ -13,7 +13,6 @@ import javax.inject.Inject;
  * Implementation of the HelloService.
  */
 public class HelloServiceImpl implements HelloService {
-
     private final PersistentEntityRegistry persistentEntityRegistry;
 
     @Inject
@@ -30,5 +29,10 @@ public class HelloServiceImpl implements HelloService {
             // Ask the entity the Hello command.
             return ref.ask(new Hello(id));
         };
+    }
+
+    @Override
+    public ServiceCall<NotUsed, String> helloDefault() {
+        return hello("World");
     }
 }
