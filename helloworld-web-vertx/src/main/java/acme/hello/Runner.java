@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.function.Consumer;
 
 public class Runner {
-    private static final String WEB_EXAMPLES_DIR = "web-examples";
+    private static final String WEB_EXAMPLES_DIR = "./helloworld-web-vertx";
     private static final String WEB_EXAMPLES_JAVA_DIR = WEB_EXAMPLES_DIR + "/src/main/java/";
     private static final String WEB_EXAMPLES_JS_DIR = WEB_EXAMPLES_DIR + "/src/main/js/";
     private static final String WEB_EXAMPLES_GROOVY_DIR = WEB_EXAMPLES_DIR + "/src/main/groovy/";
