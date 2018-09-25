@@ -13,7 +13,7 @@
     <name>HelloWorld Spark Java</name>
 
     <properties>
-        <sparkjava.version>2.8.0</sparkjava.version>
+        <sparkjava.version>2.5.5</sparkjava.version>
         <mainClass>acme.hello.Application</mainClass>
     </properties>
 
