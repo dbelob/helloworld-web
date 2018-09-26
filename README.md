@@ -19,6 +19,7 @@ Creating a simple web application on *Java* in various ways:
 1. [Struts](https://struts.apache.org)
 1. [Dropwizard](https://www.dropwizard.io)
 1. [Wicket](https://wicket.apache.org)
+1. [Tapestry](http://tapestry.apache.org)
 1. [Spark Java](http://sparkjava.com)
 1. [Vert.x](https://vertx.io)
 1. [Rapidoid](https://www.rapidoid.org)
@@ -43,7 +44,7 @@ Creating a simple web application on *Java* in various ways:
 1. From the command line with Maven:
 
     `mvn jetty:run`  
-    (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-interface-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*, *helloworld-web-jsf-myfaces*, *helloworld-web-jsf-mojarra*, *helloworld-web-struts*, *helloworld-web-wicket* modules)
+    (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-interface-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*, *helloworld-web-jsf-myfaces*, *helloworld-web-jsf-mojarra*, *helloworld-web-struts*, *helloworld-web-wicket*, *helloworld-web-tapestry* modules)
 
     `mvn spring-boot:run`  
     (for *helloworld-web-spring-boot-mvc*, *helloworld-web-spring-boot-webflux* modules)

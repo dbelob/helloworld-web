@@ -1,0 +1,6 @@
+<html t:type="layout" title="Hello"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_4.xsd">
+
+<h1>Hello, World!</h1>
+<p>Tapestry ${tapestryVersion}</p>
+</html>
