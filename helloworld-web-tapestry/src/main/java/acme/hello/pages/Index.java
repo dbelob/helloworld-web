@@ -23,8 +23,4 @@ public class Index {
     void onComplete() {
         logger.info("Complete call on Index page");
     }
-
-//    public String getTapestryVersion() {
-//        return tapestryVersion;
-//    }
 }
