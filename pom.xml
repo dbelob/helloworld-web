@@ -59,6 +59,7 @@
         <module>helloworld-web-gwt-server</module>
         <module>helloworld-web-struts</module>
         <module>helloworld-web-dropwizard</module>
+        <module>helloworld-web-seam</module>
         <module>helloworld-web-wicket</module>
         <module>helloworld-web-tapestry</module>
         <module>helloworld-web-sparkjava</module>
