@@ -30,6 +30,7 @@ Creating a simple web application on *Java* in various ways:
    * [Hammock](https://hammock-project.github.io)
    * [WildFly Swarm](http://wildfly-swarm.io)/[Thorntail](https://thorntail.io)
    * [Helidon](https://helidon.io)
+   * [Payara Micro](https://www.payara.fish/payara_micro)
 
 ## Requirements
 
@@ -69,5 +70,9 @@ Creating a simple web application on *Java* in various ways:
     `mvn package`  
     `java -jar target/hello-world-swarm.jar`  
     (for *helloworld-web-microprofile-wildfly-swarm* module)
+    
+    `mvn package`  
+    `java -jar target/hello-world-microbundle.jar`  
+    (for *helloworld-web-microprofile-payara* module)
 
 1. Access the deployed web application at: http://localhost:8080

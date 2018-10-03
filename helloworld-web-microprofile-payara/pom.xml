@@ -15,6 +15,10 @@
 
     <properties>
         <payara.version>5.183</payara.version>
+        <payara.micro.plugin.version>1.0.2</payara.micro.plugin.version>
+        <javaee.web.api.version>8.0</javaee.web.api.version>
+        <microprofile.rest.client.api.version>1.1</microprofile.rest.client.api.version>
+        <javax.ws.rs.api.version>2.1.1</javax.ws.rs.api.version>
     </properties>
 
     <dependencies>
@@ -23,7 +27,7 @@
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
-            <version>8.0</version>
+            <version>${javaee.web.api.version}</version>
             <scope>provided</scope>
         </dependency>
         <!-- This artifact provides MicroProfile REST Client API.
@@ -31,48 +35,41 @@
         <dependency>
             <groupId>org.eclipse.microprofile.rest.client</groupId>
             <artifactId>microprofile-rest-client-api</artifactId>
-            <version>1.1</version>
+            <version>${microprofile.rest.client.api.version}</version>
             <scope>provided</scope>
         </dependency>
-        <!-- the following rs-api dependency contains JAX-RS API. It's optional
+        <!-- The following rs-api dependency contains JAX-RS API. It's optional
              and is provided only as an alternative to using the javaee-web-api artifact
              which already contains the JAX-RS API -->
         <dependency>
             <groupId>javax.ws.rs</groupId>
             <artifactId>javax.ws.rs-api</artifactId>
-            <version>2.0.1</version>
+            <version>${javax.ws.rs.api.version}</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
 
     <build>
-        <finalName>rest-client</finalName>
+        <finalName>hello-world</finalName>
+        <plugins>
+            <plugin>
+                <groupId>fish.payara.maven.plugins</groupId>
+                <artifactId>payara-micro-maven-plugin</artifactId>
+                <version>${payara.micro.plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>bundle</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>bundle</goal>
+                        </goals>
+                        <configuration>
+                            <!--<autoDeployContextRoot>hello-world</autoDeployContextRoot>-->
+                            <payaraVersion>${payara.version}</payaraVersion>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
     </build>
-    <profiles>
-        <profile>
-            <id>uberjar</id>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>fish.payara.maven.plugins</groupId>
-                        <artifactId>payara-micro-maven-plugin</artifactId>
-                        <version>1.0.2</version>
-                        <executions>
-                            <execution>
-                                <id>bundle</id>
-                                <phase>install</phase>
-                                <goals>
-                                    <goal>bundle</goal>
-                                </goals>
-                                <configuration>
-                                    <autoDeployContextRoot>rest-client</autoDeployContextRoot>
-                                    <payaraVersion>${payara.version}</payaraVersion>
-                                </configuration>
-                            </execution>
-                        </executions>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-    </profiles>
 </project>

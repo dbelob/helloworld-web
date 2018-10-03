@@ -1,8 +1,10 @@
-package acme.hello.restapp;
+package acme.hello;
 
+import javax.enterprise.context.ApplicationScoped;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
-@ApplicationPath("/api")
+@ApplicationPath("/")
+@ApplicationScoped
 public class ExampleApplication extends Application {
 }
