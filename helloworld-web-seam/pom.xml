@@ -14,9 +14,8 @@
     <name>HelloWorld Seam</name>
 
     <properties>
-        <seam.version>3.1.0.Final</seam.version>
+        <seam.solder.version>3.0.0.Final</seam.solder.version>
         <cdi.api.version>2.0</cdi.api.version>
-        <jboss.annotations.api.version>1.0.1.Final</jboss.annotations.api.version>
         <weld.version>2.4.8.Final</weld.version>
         <jsf.api.version>2.0</jsf.api.version>
         <jsf.mojarra.version>2.0.11-04</jsf.mojarra.version>
@@ -39,23 +38,18 @@
         </plugins>
     </build>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.jboss.seam</groupId>
-                <artifactId>seam-bom</artifactId>
-                <version>${seam.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+    <repositories>
+        <repository>
+            <id>spring.plugins.repository</id>
+            <url>http://repo.spring.io/plugins-release/</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
-            <groupId>org.jboss.solder</groupId>
-            <artifactId>solder-impl</artifactId>
-            <scope>compile</scope>
+            <groupId>org.jboss.seam.solder</groupId>
+            <artifactId>seam-solder</artifactId>
+            <version>${seam.solder.version}</version>
         </dependency>
 
         <!-- Common to JEE and Servlet containers -->
@@ -63,12 +57,6 @@
             <groupId>javax.enterprise</groupId>
             <artifactId>cdi-api</artifactId>
             <version>${cdi.api.version}</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jboss.spec.javax.annotation</groupId>
-            <artifactId>jboss-annotations-api_1.1_spec</artifactId>
-            <version>${jboss.annotations.api.version}</version>
             <scope>provided</scope>
         </dependency>
 
