@@ -17,9 +17,10 @@
         <seam.version>3.1.0.Final</seam.version>
         <cdi.api.version>2.0</cdi.api.version>
         <jboss.annotations.api.version>1.0.1.Final</jboss.annotations.api.version>
-        <weld.version>2.4.7.Final</weld.version>
+        <weld.version>2.4.8.Final</weld.version>
         <jsf.api.version>2.0</jsf.api.version>
-        <jsf.mojarra.version>2.2.18</jsf.mojarra.version>
+        <jsf.mojarra.version>2.0.11-04</jsf.mojarra.version>
+        <javassist.version>3.23.1-GA</javassist.version>
     </properties>
 
     <build>
@@ -90,6 +91,13 @@
             <artifactId>jsf-impl</artifactId>
             <version>${jsf.mojarra.version}</version>
             <scope>runtime</scope>
+        </dependency>
+
+        <!-- Javassist -->
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>${javassist.version}</version>
         </dependency>
     </dependencies>
 </project>

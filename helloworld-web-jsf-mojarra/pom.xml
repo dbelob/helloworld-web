@@ -15,7 +15,7 @@
 
     <properties>
         <jsf-mojarra.version>2.4.0</jsf-mojarra.version>
-        <weld.version>2.4.7.Final</weld.version>
+        <weld.version>2.4.8.Final</weld.version>
     </properties>
 
     <build>

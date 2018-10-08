@@ -1,6 +1,22 @@
 <!DOCTYPE Configure PUBLIC "-//Mort Bay Consulting//DTD Configure//EN"
         "http://jetty.mortbay.org/configure.dtd">
 <Configure id="webAppCtx" class="org.eclipse.jetty.webapp.WebAppContext">
+    <Call name="prependServerClass">
+        <Arg>-org.eclipse.jetty.server.handler.ContextHandler</Arg>
+    </Call>
+
+    <Call name="prependServerClass">
+        <Arg>-org.eclipse.jetty.servlet.FilterHolder</Arg>
+    </Call>
+
+    <Call name="prependServerClass">
+        <Arg>-org.eclipse.jetty.servlet.ServletContextHandler</Arg>
+    </Call>
+
+    <Call name="prependServerClass">
+        <Arg>-org.eclipse.jetty.servlet.ServletHolder</Arg>
+    </Call>
+
     <New id="BeanManager" class="org.eclipse.jetty.plus.jndi.Resource">
         <Arg>
             <Ref id="webAppCtx"/>
@@ -14,4 +30,10 @@
             </New>
         </Arg>
     </New>
+
+    <Get class="java.lang.System" name="out">
+        <Call name="println">
+            <Arg>*** JETTY-ENV loaded</Arg>
+        </Call>
+    </Get>
 </Configure>

@@ -15,7 +15,7 @@
 
     <properties>
         <jsf-myfaces.version>2.3.1</jsf-myfaces.version>
-        <weld.version>2.4.7.Final</weld.version>
+        <weld.version>2.4.8.Final</weld.version>
     </properties>
 
     <build>
