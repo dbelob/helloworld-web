@@ -5,8 +5,8 @@ import com.vaadin.annotations.VaadinServletConfiguration;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.server.VaadinServlet;
 import com.vaadin.shared.Version;
+import com.vaadin.shared.ui.ContentMode;
 import com.vaadin.ui.*;
-import com.vaadin.ui.Button.ClickEvent;
 
 import javax.servlet.annotation.WebServlet;
 
@@ -28,18 +28,14 @@ public class HelloWorldUI extends UI {
         layout.setSpacing(true);
         setContent(layout);
 
-        layout.addComponent(new Label("Hello, World!"));
+        layout.addComponent(new Label("<h1>Hello, World!</h1>", ContentMode.HTML));
         layout.addComponent(new Label("Vaadin " + Version.getFullVersion()));
 
         Button button = new Button("Click Me");
-        button.addClickListener(new Button.ClickListener() {
-
-            @Override
-            public void buttonClick(ClickEvent event) {
-                clickCounter++;
-                clickCounterLabel.setValue("Clicks: " + clickCounter);
-                Notification.show("Thank you for clicking.");
-            }
+        button.addClickListener((Button.ClickListener) event -> {
+            clickCounter++;
+            clickCounterLabel.setValue("Clicks: " + clickCounter);
+            Notification.show("Thank you for clicking.");
         });
 
         layout.addComponent(button);
