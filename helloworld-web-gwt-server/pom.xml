@@ -14,6 +14,10 @@
     <packaging>war</packaging>
     <name>HelloWorld GWT (Server)</name>
 
+    <properties>
+        <tomcat7.plugin.version>2.2</tomcat7.plugin.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
@@ -48,6 +52,7 @@
                 <plugin>
                     <groupId>org.apache.tomcat.maven</groupId>
                     <artifactId>tomcat7-maven-plugin</artifactId>
+                    <version>${tomcat7.plugin.version}</version>
                     <configuration>
                         <addWarDependenciesInClassloader>false</addWarDependenciesInClassloader>
                         <path>/</path>
