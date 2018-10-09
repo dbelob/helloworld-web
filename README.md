@@ -18,6 +18,7 @@ Creating a simple web application on *Java* in various ways:
 1. [Google Web Toolkit](http://www.gwtproject.org)
 1. [Struts](https://struts.apache.org)
 1. [Dropwizard](https://www.dropwizard.io)
+1. [Play](https://www.playframework.com)
 1. [Vaadin](https://vaadin.com)
 1. [Seam](http://seamframework.org)
 1. [Wicket](https://wicket.apache.org)
@@ -60,6 +61,10 @@ Creating a simple web application on *Java* in various ways:
     `mvn package`  
     `java -jar target/hello-world.jar server hello-world.yml`  
     (for *helloworld-web-dropwizard* module)
+    
+    `mvn clean package`  
+    `mvn play2:run`  
+    (for *helloworld-web-play* module)
     
     `mvn package`  
     `mvn lagom:runAll`  

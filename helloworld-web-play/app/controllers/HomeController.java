@@ -1,13 +1,10 @@
 package controllers;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import play.mvc.*;
+import play.mvc.BodyParser;
+import play.mvc.Controller;
+import play.mvc.Result;
 
-//import views.html.*;  
-/**
- *
- * @author myfear
- */
 public class HomeController extends Controller {
 
     /**
@@ -15,17 +12,11 @@ public class HomeController extends Controller {
      * configuration in the <code>routes</code> file means that this method will
      * be called when the application receives a <code>GET</code> request with a
      * path of <code>/</code>.
-     *
-     * @return
      */
     public Result index() {
-        return ok("It works!");
+        return ok("Hello, World!");
     }
 
-    /**
-     *
-     * @return
-     */
     @BodyParser.Of(BodyParser.Json.class)
     public Result sayHello() {
         JsonNode json = request().body().asJson();
@@ -33,8 +24,7 @@ public class HomeController extends Controller {
         if (name == null) {
             return badRequest("Missing parameter [name]");
         } else {
-            return ok("Hello " + name);
+            return ok("Hello, " + name);
         }
     }
-
 }
