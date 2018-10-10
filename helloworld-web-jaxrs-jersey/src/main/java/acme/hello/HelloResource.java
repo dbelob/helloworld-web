@@ -19,7 +19,7 @@ public class HelloResource {
      */
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public String getIt() {
+    public String hello() {
         return "Hello, World!";
     }
 }

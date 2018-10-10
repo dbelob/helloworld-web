@@ -61,6 +61,7 @@
         <module>helloworld-web-dropwizard</module>
         <module>helloworld-web-play</module>
         <module>helloworld-web-vaadin</module>
+        <module>helloworld-web-jaxrs-apache-cxf</module>
         <module>helloworld-web-jaxrs-jersey</module>
         <module>helloworld-web-jaxrs-resteasy</module>
         <module>helloworld-web-seam</module>
