@@ -19,6 +19,8 @@ Creating a simple web application on *Java* in various ways:
 1. [Struts](https://struts.apache.org)
 1. [Dropwizard](https://www.dropwizard.io)
 1. [Play](https://www.playframework.com)
+1. [JAX-RS](https://github.com/jax-rs)
+   * [RESTEasy](https://resteasy.github.io)
 1. [Vaadin](https://vaadin.com)
 1. [Seam](http://seamframework.org)
 1. [Wicket](https://wicket.apache.org)
@@ -48,7 +50,7 @@ Creating a simple web application on *Java* in various ways:
 1. From the command line with Maven:
 
     `mvn jetty:run`  
-    (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-interface-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*, *helloworld-web-jsf-myfaces*, *helloworld-web-jsf-mojarra*, *helloworld-web-struts*, *helloworld-web-vaadin*, *helloworld-web-seam*, *helloworld-web-wicket*, *helloworld-web-tapestry* modules)
+    (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-interface-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*, *helloworld-web-jsf-myfaces*, *helloworld-web-jsf-mojarra*, *helloworld-web-struts*, *helloworld-web-jaxrs-resteasy*, *helloworld-web-vaadin*, *helloworld-web-seam*, *helloworld-web-wicket*, *helloworld-web-tapestry* modules)
 
     `mvn spring-boot:run`  
     (for *helloworld-web-spring-boot-mvc*, *helloworld-web-spring-boot-webflux* modules)
