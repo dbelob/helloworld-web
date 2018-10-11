@@ -10,8 +10,8 @@ Creating a simple web application on *Java* in various ways:
    * `web.xml` file
    * *Java* configuration
 1. [Spring Boot](https://spring.io/projects/spring-boot):
-   * Spring MVC
-   * Spring WebFlux
+   * [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#spring-web)
+   * [Spring WebFlux](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#spring-webflux)
 1. [JavaServer Faces](https://javaee.github.io/javaserverfaces-spec/):
    * [Apache MyFaces](http://myfaces.apache.org)
    * [Oracle Mojarra](http://javaserverfaces.java.net)
@@ -19,7 +19,7 @@ Creating a simple web application on *Java* in various ways:
 1. [Struts](https://struts.apache.org)
 1. [Dropwizard](https://www.dropwizard.io)
 1. [Play](https://www.playframework.com)
-1. [JAX-RS](https://github.com/jax-rs)
+1. [JAX-RS](https://github.com/jax-rs):
    * [Apache CXF](http://cxf.apache.org)
    * [Jersey](https://jersey.github.io)
    * [RESTEasy](https://resteasy.github.io)
