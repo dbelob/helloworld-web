@@ -16,6 +16,7 @@ Creating a simple web application on *Java* in various ways:
    * [Apache MyFaces](http://myfaces.apache.org)
    * [Oracle Mojarra](http://javaserverfaces.java.net)
 1. [Google Web Toolkit](http://www.gwtproject.org)
+1. [Grails](https://grails.org)
 1. [Struts](https://struts.apache.org)
 1. [Dropwizard](https://www.dropwizard.io)
 1. [Play](https://www.playframework.com)
@@ -62,6 +63,9 @@ Creating a simple web application on *Java* in various ways:
     (in one terminal window for *helloworld-web-gwt-client* module)  
     `mvn jetty:run`  
     (in another terminal window for *helloworld-web-gwt-server* module)
+
+    `mvn grails:run-app`  
+    (for *helloworld-web-grails* module)
     
     `mvn package`  
     `java -jar target/hello-world.jar server hello-world.yml`  
