@@ -80,6 +80,28 @@
             <artifactId>javax.servlet-api</artifactId>
             <scope>provided</scope>
         </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>org.springframework</groupId>-->
+            <!--<artifactId>springloaded</artifactId>-->
+            <!--<version>1.2.8.RELEASE</version>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>org.springframework</groupId>-->
+            <!--<artifactId>springloaded</artifactId>-->
+            <!--<version>1.2.0.RELEASE</version>-->
+            <!--<scope>system</scope>-->
+            <!--<systemPath>${basedir}/lib/springloaded-1.2.8.RELEASE.jar</systemPath>-->
+        <!--</dependency>-->
+
+        <dependency>
+            <groupId>org.grails.plugins</groupId>
+            <artifactId>tomcat</artifactId>
+            <version>7.0.52.1</version>
+            <type>zip</type>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <build>
