@@ -17,7 +17,7 @@
         <javaee.version>7.0</javaee.version>
         <resteasy.version>3.0.18.Final</resteasy.version>
         <jsonunit.version>1.12.1</jsonunit.version>
-        <jackson.version>2.3.1</jackson.version>
+        <jackson.version>2.9.7</jackson.version>
         <jboss-logging.version>3.3.0.Final</jboss-logging.version>
         <wildfly-swarm.version>2018.5.0</wildfly-swarm.version>
     </properties>
