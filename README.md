@@ -20,6 +20,7 @@ Creating a simple web application on *Java* in various ways:
 1. [Struts](https://struts.apache.org)
 1. [Dropwizard](https://www.dropwizard.io)
 1. [Play](https://www.playframework.com)
+1. [JHipster](https://www.jhipster.tech)
 1. [JAX-RS](https://github.com/jax-rs):
    * [Apache CXF](http://cxf.apache.org)
    * [Jersey](https://jersey.github.io)
@@ -57,7 +58,7 @@ Creating a simple web application on *Java* in various ways:
     (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-interface-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*, *helloworld-web-jsf-myfaces*, *helloworld-web-jsf-mojarra*, *helloworld-web-struts*, *helloworld-web-jaxrs-apache-cxf*, *helloworld-web-jaxrs-jersey*, *helloworld-web-jaxrs-resteasy*, *helloworld-web-jaxrs-restlet*, *helloworld-web-vaadin*, *helloworld-web-seam*, *helloworld-web-wicket*, *helloworld-web-tapestry* modules)
 
     `mvn spring-boot:run`  
-    (for *helloworld-web-spring-boot-mvc*, *helloworld-web-spring-boot-webflux* modules)
+    (for *helloworld-web-spring-boot-mvc*, *helloworld-web-spring-boot-webflux*, *helloworld-web-jhipster* modules)
 
     `mvn gwt:codeserver`  
     (in one terminal window for *helloworld-web-gwt-client* module)  
