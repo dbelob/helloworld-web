@@ -15,17 +15,21 @@
 
     <repositories>
     <!-- more information at https://blogs.oracle.com/dev2dev/entry/how_to_get_oracle_jdbc -->
-        <repository>
-            <id>maven.oracle.com</id>
-            <name>oracle-maven-repo</name>
-            <url>https://maven.oracle.com</url>
-            <layout>default</layout>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </releases>
-        </repository>
+        <!--<repository>-->
+            <!--<id>maven.oracle.com</id>-->
+            <!--<name>oracle-maven-repo</name>-->
+            <!--<url>https://maven.oracle.com</url>-->
+            <!--<layout>default</layout>-->
+            <!--<releases>-->
+                <!--<enabled>true</enabled>-->
+                <!--<updatePolicy>always</updatePolicy>-->
+            <!--</releases>-->
+        <!--</repository>-->
         <!-- jhipster-needle-maven-repository -->
+        <repository>
+            <id>atlassian-3rd-party</id>
+            <url>https://maven.atlassian.com/3rdparty/</url>
+        </repository>
     </repositories>
 
     <!-- jhipster-needle-distribution-management -->
@@ -68,6 +72,7 @@
         <liquibase-hibernate5.version>3.6</liquibase-hibernate5.version>
         <validation-api.version>2.0.1.Final</validation-api.version>
         <mapstruct.version>1.2.0.Final</mapstruct.version>
+        <ojdbc6.version>12.1.0.1-atlassian-hosted</ojdbc6.version>
 
         <!-- Plugin versions -->
         <maven-clean-plugin.version>3.1.0</maven-clean-plugin.version>
@@ -222,9 +227,14 @@
             <artifactId>cache-api</artifactId>
         </dependency>
         <!-- more information at https://blogs.oracle.com/dev2dev/entry/how_to_get_oracle_jdbc -->
+        <!--<dependency>-->
+            <!--<groupId>com.oracle.jdbc</groupId>-->
+            <!--<artifactId>ojdbc8</artifactId>-->
+        <!--</dependency>-->
         <dependency>
-            <groupId>com.oracle.jdbc</groupId>
-            <artifactId>ojdbc8</artifactId>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc6</artifactId>
+            <version>${ojdbc6.version}</version>
         </dependency>
         <dependency>
             <groupId>org.assertj</groupId>
