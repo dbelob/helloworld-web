@@ -80,6 +80,7 @@
         <module>helloworld-web-micronaut</module>
         <module>helloworld-web-microprofile-hammock</module>
         <module>helloworld-web-microprofile-wildfly-swarm</module>
+        <module>helloworld-web-microprofile-thorntail</module>
         <module>helloworld-web-microprofile-helidon</module>
         <module>helloworld-web-microprofile-payara</module>
     </modules>
