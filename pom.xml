@@ -16,6 +16,7 @@
         <clean.plugin.version>3.1.0</clean.plugin.version>
         <compiler.plugin.version>3.7.0</compiler.plugin.version>
         <dependency.plugin.version>2.10</dependency.plugin.version>
+        <dependency.check.plugin.version>3.3.2</dependency.check.plugin.version>
         <exec.plugin.version>1.6.0</exec.plugin.version>
         <gwt.plugin.version>1.0-rc-9</gwt.plugin.version>
         <jar.plugin.version>3.1.0</jar.plugin.version>
@@ -116,6 +117,18 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>${war.plugin.version}</version>
             </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.owasp</groupId>-->
+                <!--<artifactId>dependency-check-maven</artifactId>-->
+                <!--<version>${dependency.check.plugin.version}</version>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<goals>-->
+                            <!--<goal>check</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
         </plugins>
         <pluginManagement>
             <plugins>
