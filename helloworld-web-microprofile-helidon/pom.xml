@@ -14,7 +14,7 @@
     <name>HelloWorld MicroProfile (Helidon)</name>
 
     <properties>
-        <helidon-version>0.10.0</helidon-version>
+        <helidon-version>0.10.4</helidon-version>
         <mainClass>acme.hello.Main</mainClass>
         <libs.classpath.prefix>libs</libs.classpath.prefix>
         <copied.libs.dir>${project.build.directory}/${libs.classpath.prefix}</copied.libs.dir>

@@ -39,8 +39,8 @@ Creating a simple web application on *Java* in various ways:
 1. [MicroProfile](https://microprofile.io):
    * [Hammock](https://hammock-project.github.io)
    * [WildFly Swarm](http://wildfly-swarm.io)/[Thorntail](https://thorntail.io)
-   * [Helidon](https://helidon.io)
    * [Payara Micro](https://www.payara.fish/payara_micro)
+   * [Helidon](https://helidon.io)
 
 ## Requirements
 

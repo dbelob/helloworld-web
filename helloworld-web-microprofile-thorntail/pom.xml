@@ -14,7 +14,7 @@
     <name>HelloWorld MicroProfile (Thorntail)</name>
 
     <properties>
-        <thorntail.version>2.2.0.Final</thorntail.version>
+        <thorntail.version>2.2.1.Final</thorntail.version>
     </properties>
 
     <build>
