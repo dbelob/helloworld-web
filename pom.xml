@@ -214,15 +214,6 @@
                 <version>${hibernate.validator.version}</version>
             </dependency>
 
-            <!-- GWT -->
-            <dependency>
-                <groupId>com.google.gwt</groupId>
-                <artifactId>gwt</artifactId>
-                <version>${gwt.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
             <!-- Logging -->
             <dependency>
                 <groupId>org.slf4j</groupId>
