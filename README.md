@@ -37,6 +37,7 @@ Creating a simple web application on *Java* in various ways:
 1. [Ratpack](https://ratpack.io)
 1. [Micronaut](http://micronaut.io)
 1. [MicroProfile](https://microprofile.io):
+   * [KumuluzEE](https://ee.kumuluz.com)
    * [Hammock](https://hammock-project.github.io)
    * [WildFly Swarm](http://wildfly-swarm.io)/[Thorntail](https://thorntail.io)
    * [Payara Micro](https://www.payara.fish/payara_micro)
@@ -82,7 +83,7 @@ Creating a simple web application on *Java* in various ways:
     
     `mvn package`  
     `java -jar target/hello-world.jar`  
-    (for *helloworld-web-sparkjava*, *helloworld-web-vertx*, *helloworld-web-rapidoid*, *helloworld-web-ratpack*, *helloworld-web-micronaut*, *helloworld-web-microprofile-hammock*, *helloworld-web-microprofile-helidon* modules)
+    (for *helloworld-web-sparkjava*, *helloworld-web-vertx*, *helloworld-web-rapidoid*, *helloworld-web-ratpack*, *helloworld-web-micronaut*, *helloworld-web-microprofile-kumuluzee*, *helloworld-web-microprofile-hammock*, *helloworld-web-microprofile-helidon* modules)
     
     `mvn package`  
     `java -jar target/hello-world-swarm.jar`  

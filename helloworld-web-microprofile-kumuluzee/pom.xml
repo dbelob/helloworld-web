@@ -1,0 +1,83 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>acme.helloworld-web</groupId>
+        <artifactId>helloworld-web-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>helloworld-web-microprofile-kumuluzee</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>HelloWorld MicroProfile (KumuluzEE)</name>
+
+    <properties>
+        <kumuluzee.version>3.0.0</kumuluzee.version>
+        <kumuluzee.rest.version>1.2.3</kumuluzee.rest.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.kumuluz.ee</groupId>
+                <artifactId>kumuluzee-bom</artifactId>
+                <version>${kumuluzee.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.kumuluz.ee</groupId>
+            <artifactId>kumuluzee-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kumuluz.ee</groupId>
+            <artifactId>kumuluzee-servlet-jetty</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kumuluz.ee</groupId>
+            <artifactId>kumuluzee-jax-rs-jersey</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kumuluz.ee</groupId>
+            <artifactId>kumuluzee-cdi-weld</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kumuluz.ee</groupId>
+            <artifactId>kumuluzee-jpa-eclipselink</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kumuluz.ee</groupId>
+            <artifactId>kumuluzee-jta-narayana</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kumuluz.ee.rest</groupId>
+            <artifactId>kumuluzee-rest-core</artifactId>
+            <version>${kumuluzee.rest.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>hello-world</finalName>
+        <plugins>
+            <plugin>
+                <groupId>com.kumuluz.ee</groupId>
+                <artifactId>kumuluzee-maven-plugin</artifactId>
+                <version>${kumuluzee.version}</version>
+                <executions>
+                    <execution>
+                        <id>package</id>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

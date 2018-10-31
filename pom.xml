@@ -21,7 +21,7 @@
         <gwt.plugin.version>1.0-rc-9</gwt.plugin.version>
         <jar.plugin.version>3.1.0</jar.plugin.version>
         <javadoc.plugin.version>3.0.1</javadoc.plugin.version>
-        <jetty.plugin.version>9.4.10.v20180503</jetty.plugin.version>
+        <jetty.plugin.version>9.4.12.v20180830</jetty.plugin.version>
         <project.info.reports.plugin.version>3.0.0</project.info.reports.plugin.version>
         <shade.plugin.version>3.1.1</shade.plugin.version>
         <source.plugin.version>3.0.1</source.plugin.version>
@@ -79,6 +79,7 @@
         <module>helloworld-web-lagom-impl</module>
         <module>helloworld-web-ratpack</module>
         <module>helloworld-web-micronaut</module>
+        <module>helloworld-web-microprofile-kumuluzee</module>
         <module>helloworld-web-microprofile-hammock</module>
         <module>helloworld-web-microprofile-wildfly-swarm</module>
         <module>helloworld-web-microprofile-thorntail</module>
@@ -187,19 +188,16 @@
                 <groupId>javax.servlet.jsp</groupId>
                 <artifactId>javax.servlet.jsp-api</artifactId>
                 <version>${jsp.api.version}</version>
-                <scope>provided</scope>
             </dependency>
             <dependency>
                 <groupId>javax.el</groupId>
                 <artifactId>javax.el-api</artifactId>
                 <version>${jsp.el.version}</version>
-                <scope>provided</scope>
             </dependency>
             <dependency>
                 <groupId>javax.servlet</groupId>
                 <artifactId>jstl</artifactId>
                 <version>${jstl.version}</version>
-                <scope>provided</scope>
             </dependency>
 
             <!-- Database -->
