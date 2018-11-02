@@ -57,6 +57,9 @@
                 <version>${tomee.plugin.version}</version>
                 <configuration>
                     <tomeeClassifier>webprofile</tomeeClassifier>
+                    <webapps>
+                        <webapp>${project.groupId}:${project.artifactId}:${project.version}?name=ROOT</webapp>
+                    </webapps>
                 </configuration>
                 <executions>
                     <execution>
