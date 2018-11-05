@@ -86,7 +86,7 @@ Creating a simple web application on *Java* in various ways:
     `java -jar target/hello-world.jar`  
     (for *helloworld-web-sparkjava*, *helloworld-web-vertx*, *helloworld-web-rapidoid*, *helloworld-web-ratpack*, *helloworld-web-micronaut*, *helloworld-web-microprofile-kumuluzee*, *helloworld-web-microprofile-hammock*, *helloworld-web-microprofile-helidon* modules)
     
-    `mvn install`  
+    `mvn package`  
     `java -jar target/hello-world-exec.jar`  
     (for *helloworld-web-microprofile-tomee* module)
     
