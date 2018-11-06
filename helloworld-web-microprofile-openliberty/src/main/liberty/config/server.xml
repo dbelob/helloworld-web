@@ -5,8 +5,10 @@
       <feature>jsonp-1.1</feature>
   </featureManager>
 
-  <httpEndpoint httpPort="${default.http.port}" httpsPort="${default.https.port}"
-      id="defaultHttpEndpoint" host="*" />
+  <httpEndpoint id="defaultHttpEndpoint"
+                host="*"
+                httpPort="${default.http.port}"
+                httpsPort="${default.https.port}"/>
 
-  <webApplication location="hello-world.war" contextRoot="${app.context.root}"/>
+  <application context-root="${app.context.root}" location="${app.location}" type="war"/>
 </server>

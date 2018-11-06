@@ -14,13 +14,6 @@
     <name>HelloWorld MicroProfile (Open Liberty)</name>
     
     <properties>
-        <app.name>hello-world</app.name>
-        <testServerHttpPort>8080</testServerHttpPort>
-        <testServerHttpsPort>9443</testServerHttpsPort>
-        <warContext>qwe</warContext>
-        <package.file>${project.build.directory}/${app.name}.jar</package.file>
-        <packaging.type>runnable</packaging.type>
-        
         <openliberty.version>18.0.0.3</openliberty.version>
         <liberty.plugin.version>2.6.1</liberty.plugin.version>
     </properties>
@@ -78,79 +71,51 @@
         <finalName>hello-world</finalName>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <configuration>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
-                    <packagingExcludes>pom.xml</packagingExcludes>
-                </configuration>
-            </plugin>
-            <!-- Enable liberty-maven plugin -->
-            <plugin>
                 <groupId>net.wasdev.wlp.maven.plugins</groupId>
                 <artifactId>liberty-maven-plugin</artifactId>
                 <version>${liberty.plugin.version}</version>
                 <configuration>
-                    <assemblyArtifact>
-                        <groupId>io.openliberty</groupId>
-                        <artifactId>openliberty-runtime</artifactId>
-                        <version>RELEASE</version>
-                        <type>zip</type>
-                    </assemblyArtifact>
                     <configFile>src/main/liberty/config/server.xml</configFile>
-                    <packageFile>${package.file}</packageFile>
-                    <include>${packaging.type}</include>
-                    <!-- tag::bootstrap[] -->
+                    <packageFile>${project.build.directory}/${project.build.finalName}.jar</packageFile>
+                    <looseApplication>true</looseApplication>
+                    <installAppPackages>project</installAppPackages>
+                    <include>runnable</include>
                     <bootstrapProperties>
-                        <default.http.port>${testServerHttpPort}</default.http.port>
-                        <default.https.port>${testServerHttpsPort}</default.https.port>
-                        <app.context.root>${warContext}</app.context.root>
+                        <default.http.port>8080</default.http.port>
+                        <default.https.port>9443</default.https.port>
+                        <app.context.root>/</app.context.root>
+                        <app.location>${project.build.finalName}.war</app.location>
                     </bootstrapProperties>
-                    <!-- end::bootstrap[] -->
                 </configuration>
                 <executions>
-                    <!--<execution>-->
-                        <!--<id>install-liberty</id>-->
-                        <!--<phase>prepare-package</phase>-->
-                        <!--<goals>-->
-                            <!--<goal>install-server</goal>-->
-                        <!--</goals>-->
-                    <!--</execution>-->
-                    <!--<execution>-->
-                        <!--<id>install-app</id>-->
-                        <!--<phase>pre-integration-test</phase>-->
-                        <!--<goals>-->
-                            <!--<goal>install-apps</goal>-->
-                        <!--</goals>-->
-                        <!--<configuration>-->
-                            <!--<looseApplication>true</looseApplication>-->
-                            <!--<stripVersion>true</stripVersion>-->
-                            <!--<installAppPackages>project</installAppPackages>-->
-                        <!--</configuration>-->
-                    <!--</execution>-->
-                    <!--<execution>-->
-                        <!--<id>start-server</id>-->
-                        <!--<phase>pre-integration-test</phase>-->
-                        <!--<goals>-->
-                            <!--<goal>test-start-server</goal>-->
-                        <!--</goals>-->
-                    <!--</execution>-->
-                    <!--<execution>-->
-                        <!--<id>stop-server</id>-->
-                        <!--<phase>post-integration-test</phase>-->
-                        <!--<goals>-->
-                            <!--<goal>test-stop-server</goal>-->
-                        <!--</goals>-->
-                    <!--</execution>-->
                     <execution>
-                        <id>package-app</id>
+                        <id>stop-server-before-clean</id>
+                        <phase>pre-clean</phase>
+                        <goals>
+                            <goal>stop-server</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>create-server</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>install-server</goal>
+                            <goal>create-server</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>install-apps</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>install-apps</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>package-server</id>
                         <phase>package</phase>
                         <goals>
                             <goal>package-server</goal>
                         </goals>
-                        <configuration>
-                            <outputDirectory>target/wlp-package</outputDirectory>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
