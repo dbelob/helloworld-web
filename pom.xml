@@ -83,7 +83,6 @@
         <module>helloworld-web-microprofile-tomee</module>
         <module>helloworld-web-microprofile-openliberty</module>
         <module>helloworld-web-microprofile-hammock</module>
-        <module>helloworld-web-microprofile-wildfly-swarm</module>
         <module>helloworld-web-microprofile-thorntail</module>
         <module>helloworld-web-microprofile-payara</module>
         <module>helloworld-web-microprofile-helidon</module>

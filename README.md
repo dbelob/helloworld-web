@@ -41,7 +41,7 @@ Creating a simple web application on *Java* in various ways:
    * [TomEE](http://tomee.apache.org)
    * [Open Liberty](https://openliberty.io)
    * [Hammock](https://hammock-project.github.io)
-   * [WildFly Swarm](http://wildfly-swarm.io)/[Thorntail](https://thorntail.io)
+   * [Thorntail](https://thorntail.io)
    * [Payara Micro](https://www.payara.fish/payara_micro)
    * [Helidon](https://helidon.io)
 
