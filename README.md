@@ -92,10 +92,6 @@ Creating a simple web application on *Java* in various ways:
     (for *helloworld-web-microprofile-tomee* module)
     
     `mvn package`  
-    `java -jar target/hello-world-swarm.jar`  
-    (for *helloworld-web-microprofile-wildfly-swarm* module)
-    
-    `mvn package`  
     `java -jar target/hello-world-thorntail.jar`  
     (for *helloworld-web-microprofile-thorntail* module)
     
