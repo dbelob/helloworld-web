@@ -78,6 +78,7 @@
         <module>helloworld-web-lagom-impl</module>
         <module>helloworld-web-ratpack</module>
         <module>helloworld-web-micronaut</module>
+        <module>helloworld-web-javalin</module>
         <module>helloworld-web-microprofile-kumuluzee</module>
         <module>helloworld-web-microprofile-tomee</module>
         <module>helloworld-web-microprofile-openliberty</module>
