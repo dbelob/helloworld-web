@@ -14,7 +14,7 @@ Creating a simple web application on *Java* in various ways:
    * [Spring WebFlux](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#spring-webflux)
 1. [JavaServer Faces](https://javaee.github.io/javaserverfaces-spec/):
    * [Apache MyFaces](http://myfaces.apache.org)
-   * [Oracle Mojarra](http://javaserverfaces.java.net)
+   * [Eclipse Mojarra](https://projects.eclipse.org/projects/ee4j.mojarra)
 1. [Google Web Toolkit](http://www.gwtproject.org)
 1. [Grails](https://grails.org)
 1. [Struts](https://struts.apache.org)
