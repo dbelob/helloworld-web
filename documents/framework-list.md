@@ -13,7 +13,7 @@
         <th>Type</th>
         <th>Subtype</th>
         <th><a href="https://jrebel.com/webframeworksindex/)">ZeroTurnaround, 2017</a></th>
-        <th><a href="https://blogs.oracle.com/javamagazine/the-largest-survey-ever-of-java-developers)">Java Magazine, 2018</a></th>
+        <th><a href="https://blogs.oracle.com/javamagazine/the-largest-survey-ever-of-java-developers">Java Magazine, 2018</a></th>
     </tr>
     <tr>
         <td>1</td>
