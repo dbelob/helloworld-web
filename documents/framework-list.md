@@ -8,6 +8,7 @@
         <th rowspan="2">Initial release date</th>
         <th rowspan="2">Last stable release date</th>
         <th colspan="2">Popularity, %</th>
+        <th colspan="2">License</th>
     </tr>
     <tr>
         <th>Type</th>
@@ -46,14 +47,14 @@
         <td rowspan="2">4</td>
         <td rowspan="2">JavaServer Faces</td>
         <td>Apache MyFaces</td>
-        <td style="text-align:center">2010</td>
+        <td style="text-align:center">11.2005</td>
         <td style="text-align:center">23.05.2019</td>
         <td rowspan="2" style="text-align:center">15,2</td>
         <td rowspan="2" style="text-align:center">19</td>
     </tr>
     <tr>
         <td>Eclipse Mojarra</td>
-        <td style="text-align:center">2009</td>
+        <td style="text-align:center">03.03.2004</td>
         <td style="text-align:center">30.11.2018</td>
     </tr>
     <tr>
@@ -114,32 +115,32 @@
         <td rowspan="4">11</td>
         <td rowspan="4">JAX-RS</td>
         <td>Apache CXF</td>
-        <td style="text-align:center">2008</td>
+        <td style="text-align:center">04.2008</td>
         <td style="text-align:center">13.08.2019</td>
         <td rowspan="4" style="text-align:center">2,44</td>
         <td rowspan="4" style="text-align:center"></td>
     </tr>
     <tr>
         <td>Jersey</td>
-        <td></td>
-        <td></td>
+        <td style="text-align:center">05.2010</td>
+        <td style="text-align:center">25.06.2019</td>
     </tr>
     <tr>
         <td>RESTEasy</td>
-        <td></td>
-        <td></td>
+        <td style="text-align:center">09.2008</td>
+        <td style="text-align:center">30.08.2019</td>
     </tr>
     <tr>
         <td>Restlet</td>
-        <td></td>
-        <td></td>
+        <td style="text-align:center">01.2013</td>
+        <td style="text-align:center">01.2018</td>
     </tr>
     <tr>
         <td>12</td>
         <td>Vaadin</td>
         <td/>
-        <td style="text-align:center"></td>
-        <td style="text-align:center"></td>
+        <td style="text-align:center">2006</td>
+        <td style="text-align:center">26.08.2019</td>
         <td style="text-align:center">2,15</td>
         <td style="text-align:center">5</td>
     </tr>
@@ -147,8 +148,8 @@
         <td>13</td>
         <td>Seam</td>
         <td/>
-        <td style="text-align:center"></td>
-        <td style="text-align:center"></td>
+        <td style="text-align:center">2007</td>
+        <td style="text-align:center">25.07.2013</td>
         <td style="text-align:center">1,94</td>
         <td style="text-align:center"></td>
     </tr>
@@ -156,8 +157,8 @@
         <td>14</td>
         <td>Wicket</td>
         <td/>
-        <td style="text-align:center"></td>
-        <td style="text-align:center"></td>
+        <td style="text-align:center">06.2005</td>
+        <td style="text-align:center">28.05.2019</td>
         <td style="text-align:center">1,91</td>
         <td style="text-align:center">2</td>
     </tr>
@@ -165,8 +166,8 @@
         <td>15</td>
         <td>Tapestry</td>
         <td/>
-        <td style="text-align:center"></td>
-        <td style="text-align:center"></td>
+        <td style="text-align:center">2000 (?)</td>
+        <td style="text-align:center">18.12.2018</td>
         <td style="text-align:center">1,9</td>
         <td style="text-align:center"></td>
     </tr>
@@ -174,10 +175,11 @@
         <td>16</td>
         <td>Spark Java</td>
         <td/>
-        <td style="text-align:center"></td>
-        <td style="text-align:center"></td>
+        <td style="text-align:center">2011</td>
+        <td style="text-align:center">22.05.2019</td>
         <td style="text-align:center">0,77</td>
         <td style="text-align:center"></td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td>17</td>
