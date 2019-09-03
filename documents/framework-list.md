@@ -8,18 +8,16 @@
         <th rowspan="2">Initial release date</th>
         <th rowspan="2">Last stable release date</th>
         <th colspan="2">Popularity, %</th>
-        <th rowspan="2">License</th>
     </tr>
     <tr>
         <th>Type</th>
         <th>Subtype</th>
         <th><a href="https://jrebel.com/webframeworksindex/)">ZT, 2017</a></th>
-        <th><a href="https://blogs.oracle.com/javamagazine/the-largest-survey-ever-of-java-developers">Java Mag., 2018</a></th>
+        <th><a href="https://blogs.oracle.com/javamagazine/the-largest-survey-ever-of-java-developers">Java Magazine, 2018</a></th>
     </tr>
     <tr>
         <td align="center">1</td>
         <td>HTTP Servlet</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -34,7 +32,6 @@
         <td align="center">02.08.2019</td>
         <td align="center">28,82</td>
         <td align="center">36</td>
-        <td>Apache 2.0</td>
     </tr>    
     <tr>
         <td align="center">3</td>
@@ -44,7 +41,6 @@
         <td align="center">02.08.2019</td>
         <td align="center">13,35</td>
         <td align="center">40</td>
-        <td>Apache 2.0</td>
     </tr>    
     <tr>
         <td align="center">4</td>
@@ -54,14 +50,12 @@
         <td align="center">23.05.2019</td>
         <td rowspan="2" align="center">15,2</td>
         <td rowspan="2" align="center">19</td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">5</td>        
         <td>Eclipse Mojarra</td>
         <td align="center">03.03.2004</td>
         <td align="center">30.11.2018</td>
-        <td>EPL 2.0</td>
     </tr>
     <tr>
         <td align="center">6</td>
@@ -71,7 +65,6 @@
         <td align="center">19.10.2017</td>
         <td align="center">7,74</td>
         <td align="center">6</td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">7</td>
@@ -81,7 +74,6 @@
         <td align="center">11.07.2019</td>
         <td align="center">6,35</td>
         <td align="center">3</td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">8</td>
@@ -91,7 +83,6 @@
         <td align="center">09.01.2019</td>
         <td align="center">5,4</td>
         <td align="center">9</td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">9</td>
@@ -101,7 +92,6 @@
         <td align="center">07.08.2019</td>
         <td align="center">4,9</td>
         <td align="center">3</td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">10</td>
@@ -111,7 +101,6 @@
         <td align="center">19.06.2019</td>
         <td align="center">3,26</td>
         <td align="center">3</td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">11</td>
@@ -121,7 +110,6 @@
         <td align="center">01.08.2019</td>
         <td align="center">2,49</td>
         <td align="center">3</td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">12</td>
@@ -131,28 +119,24 @@
         <td align="center">13.08.2019</td>
         <td rowspan="4" align="center">2,44</td>
         <td rowspan="4" align="center"></td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">13</td>
         <td>Jersey</td>
         <td align="center">05.2010</td>
         <td align="center">25.06.2019</td>
-        <td>EPL 2.0</td>
     </tr>
     <tr>
         <td align="center">14</td>        
         <td>RESTEasy</td>
         <td align="center">09.2008</td>
         <td align="center">30.08.2019</td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">15</td>
         <td>Restlet</td>
         <td align="center">01.2013</td>
         <td align="center">01.2018</td>
-        <td>Apache 2.0, LGPL 3.0, LGPL 2.1, CDDL 1.0, EPL 1.0</td>
     </tr>
     <tr>
         <td align="center">16</td>
@@ -162,7 +146,6 @@
         <td align="center">26.08.2019</td>
         <td align="center">2,15</td>
         <td align="center">5</td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">17</td>
@@ -172,7 +155,6 @@
         <td align="center">25.07.2013</td>
         <td align="center">1,94</td>
         <td align="center"></td>
-        <td>LGPL</td>
     </tr>
     <tr>
         <td align="center">18</td>
@@ -182,7 +164,6 @@
         <td align="center">28.05.2019</td>
         <td align="center">1,91</td>
         <td align="center">2</td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">19</td>
@@ -192,7 +173,6 @@
         <td align="center">18.12.2018</td>
         <td align="center">1,9</td>
         <td align="center"></td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">20</td>
@@ -202,7 +182,6 @@
         <td align="center">22.05.2019</td>
         <td align="center">0,77</td>
         <td align="center"></td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">21</td>
@@ -212,7 +191,6 @@
         <td align="center">22.08.2019</td>
         <td align="center">0,76</td>
         <td align="center"></td>
-        <td>Apache 2.0, EPL 2.0</td>
     </tr>
     <tr>
         <td align="center">22</td>
@@ -222,7 +200,6 @@
         <td align="center">05.2018</td>
         <td align="center">0,25</td>
         <td align="center"></td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">23</td>
@@ -232,7 +209,6 @@
         <td align="center">05.2019</td>
         <td align="center">0,24</td>
         <td align="center"></td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">24</td>
@@ -242,7 +218,6 @@
         <td align="center">18.08.2019</td>
         <td align="center">0,13</td>
         <td align="center"></td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">25</td>
@@ -252,7 +227,6 @@
         <td align="center">29.01.2019</td>
         <td align="center"></td>
         <td align="center"></td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">26</td>
@@ -262,7 +236,6 @@
         <td align="center">11.08.2019</td>
         <td align="center"></td>
         <td align="center"></td>
-        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td align="center">27</td>
@@ -272,12 +245,10 @@
         <td align="center">29.06.2019</td>
         <td align="center"></td>
         <td align="center"></td>
-        <td>MIT</td>
     </tr>
     <tr>
         <td align="center">28</td>
         <td>TomEE</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -290,12 +261,10 @@
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td align="center">30</td>
         <td>Hammock</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -308,7 +277,6 @@
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td align="center">32</td>
@@ -317,12 +285,10 @@
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <td align="center">33</td>
         <td>Helidon</td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
