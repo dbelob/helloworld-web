@@ -605,9 +605,9 @@
         <td style="text-align:center">7</td>
         <td>Helidon</td>
         <td/>
-        <td>Helidon 0.9.4</td>
+        <td><a href="https://github.com/oracle/helidon/releases">Helidon 0.9.4</a></td>
         <td><a href="https://github.com/oracle/helidon/releases">Helidon 1.0</a></td>
-        <td><a href="https://github.com/oracle/helidon/releases">Helidon 1.2.0</a></td>
+        <td><a href="https://github.com/oracle/helidon/releases/tag/1.2.0">Helidon 1.2.0</a></td>
         <td><a href="https://github.com/oracle/helidon/releases/tag/1.2.0">Helidon 1.2.0</a></td>
         <td><a href="https://github.com/oracle/helidon/releases/tag/1.2.0">Helidon 1.2.0</a></td>
         <td><a href="https://github.com/oracle/helidon/releases/tag/1.2.0">Helidon 1.2.0</a></td>
