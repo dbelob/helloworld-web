@@ -34,7 +34,7 @@
         <td style="text-align:center">02.08.2019</td>
         <td style="text-align:center">28,82</td>
         <td style="text-align:center">36</td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>    
     <tr>
         <td style="text-align:center">3</td>
@@ -44,7 +44,7 @@
         <td style="text-align:center">02.08.2019</td>
         <td style="text-align:center">13,35</td>
         <td style="text-align:center">40</td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>    
     <tr>
         <td style="text-align:center">4</td>
@@ -54,14 +54,14 @@
         <td style="text-align:center">23.05.2019</td>
         <td rowspan="2" style="text-align:center">15,2</td>
         <td rowspan="2" style="text-align:center">19</td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">5</td>        
         <td>Eclipse Mojarra</td>
         <td style="text-align:center">03.03.2004</td>
         <td style="text-align:center">30.11.2018</td>
-        <td>Eclipse Public License 2.0</td>
+        <td>EPL 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">6</td>
@@ -71,7 +71,7 @@
         <td style="text-align:center">19.10.2017</td>
         <td style="text-align:center">7,74</td>
         <td style="text-align:center">6</td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">7</td>
@@ -81,7 +81,7 @@
         <td style="text-align:center">11.07.2019</td>
         <td style="text-align:center">6,35</td>
         <td style="text-align:center">3</td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">8</td>
@@ -91,7 +91,7 @@
         <td style="text-align:center">09.01.2019</td>
         <td style="text-align:center">5,4</td>
         <td style="text-align:center">9</td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">9</td>
@@ -101,7 +101,7 @@
         <td style="text-align:center">07.08.2019</td>
         <td style="text-align:center">4,9</td>
         <td style="text-align:center">3</td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">10</td>
@@ -111,7 +111,7 @@
         <td style="text-align:center">19.06.2019</td>
         <td style="text-align:center">3,26</td>
         <td style="text-align:center">3</td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">11</td>
@@ -121,7 +121,7 @@
         <td style="text-align:center">01.08.2019</td>
         <td style="text-align:center">2,49</td>
         <td style="text-align:center">3</td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">12</td>
@@ -131,21 +131,21 @@
         <td style="text-align:center">13.08.2019</td>
         <td rowspan="4" style="text-align:center">2,44</td>
         <td rowspan="4" style="text-align:center"></td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">13</td>
         <td>Jersey</td>
         <td style="text-align:center">05.2010</td>
         <td style="text-align:center">25.06.2019</td>
-        <td>Eclipse Public License 2.0</td>
+        <td>EPL 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">14</td>        
         <td>RESTEasy</td>
         <td style="text-align:center">09.2008</td>
         <td style="text-align:center">30.08.2019</td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">15</td>
@@ -154,11 +154,11 @@
         <td style="text-align:center">01.2018</td>
         <td>
             <ul>
-                <li>Apache License 2.0</li>
-                <li>LGPL License 3.0</li>
-                <li>LGPL License 2.1</li>
-                <li>CDDL License 1.0</li>
-                <li>Eclipse Public License 1.0</li>
+                <li>Apache 2.0</li>
+                <li>LGPL 3.0</li>
+                <li>LGPL 2.1</li>
+                <li>CDDL 1.0</li>
+                <li>EPL 1.0</li>
             </ul>
         </td>
     </tr>
@@ -170,7 +170,7 @@
         <td style="text-align:center">26.08.2019</td>
         <td style="text-align:center">2,15</td>
         <td style="text-align:center">5</td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">17</td>
@@ -190,7 +190,7 @@
         <td style="text-align:center">28.05.2019</td>
         <td style="text-align:center">1,91</td>
         <td style="text-align:center">2</td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">19</td>
@@ -200,7 +200,7 @@
         <td style="text-align:center">18.12.2018</td>
         <td style="text-align:center">1,9</td>
         <td style="text-align:center"></td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">20</td>
@@ -210,7 +210,7 @@
         <td style="text-align:center">22.05.2019</td>
         <td style="text-align:center">0,77</td>
         <td style="text-align:center"></td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">21</td>
@@ -222,8 +222,8 @@
         <td style="text-align:center"></td>
         <td>
             <ul>
-                <li>Apache License 2.0</li>
-                <li>Eclipse Public License 2.0</li>
+                <li>Apache 2.0</li>
+                <li>EPL 2.0</li>
             </ul>
         </td>
     </tr>
@@ -235,7 +235,7 @@
         <td style="text-align:center">05.2018</td>
         <td style="text-align:center">0,25</td>
         <td style="text-align:center"></td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">23</td>
@@ -245,7 +245,7 @@
         <td style="text-align:center">05.2019</td>
         <td style="text-align:center">0,24</td>
         <td style="text-align:center"></td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">24</td>
@@ -255,7 +255,7 @@
         <td style="text-align:center">18.08.2019</td>
         <td style="text-align:center">0,13</td>
         <td style="text-align:center"></td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">25</td>
@@ -265,7 +265,7 @@
         <td style="text-align:center">29.01.2019</td>
         <td style="text-align:center"></td>
         <td style="text-align:center"></td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">26</td>
@@ -275,7 +275,7 @@
         <td style="text-align:center">11.08.2019</td>
         <td style="text-align:center"></td>
         <td style="text-align:center"></td>
-        <td>Apache License 2.0</td>
+        <td>Apache 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">27</td>
