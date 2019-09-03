@@ -12,7 +12,7 @@
     <tr>
         <th>Type</th>
         <th>Subtype</th>
-        <th><a href="https://jrebel.com/webframeworksindex/)">ZT, 2017</a></th>
+        <th><a href="https://jrebel.com/webframeworksindex/)">RebelLabs, 2017</a></th>
         <th><a href="https://blogs.oracle.com/javamagazine/the-largest-survey-ever-of-java-developers">Java Magazine, 2018</a></th>
     </tr>
     <tr>
@@ -79,7 +79,7 @@
         <td align="center">8</td>
         <td>Struts</td>
         <td></td>
-        <td align="center">10.10.2006</td>
+        <td align="center">05.2000</td>
         <td align="center">09.01.2019</td>
         <td align="center">5,4</td>
         <td align="center">9</td>
@@ -169,7 +169,7 @@
         <td align="center">19</td>
         <td>Tapestry</td>
         <td></td>
-        <td align="center">2000 (?)</td>
+        <td align="center">2000</td>
         <td align="center">18.12.2018</td>
         <td align="center">1,9</td>
         <td align="center"></td>
@@ -249,48 +249,48 @@
     <tr>
         <td align="center">28</td>
         <td>TomEE</td>
-        <td></td>
-        <td></td>
+        <td align="center">27.04.2012</td>
+        <td align="center">21.06.2019</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td align="center">29</td>
         <td>Open Liberty</td>
-        <td></td>
-        <td></td>
+        <td align="center">19.09.2017</td>
+        <td align="center">14.08.2019</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td align="center">30</td>
         <td>Hammock</td>
-        <td></td>
-        <td></td>
+        <td align="center">27.02.2014</td>
+        <td align="center">05.03.2018</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td align="center">31</td>
         <td>Thorntail</td>
-        <td></td>
-        <td></td>
+        <td align="center">01.2016</td>
+        <td align="center">17.07.2019</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td align="center">32</td>
         <td>Payara Micro</td>
-        <td></td>
-        <td></td>
+        <td align="center">07.2017</td>
+        <td align="center">06.2019</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td align="center">33</td>
         <td>Helidon</td>
-        <td></td>
-        <td></td>
+        <td align="center">19.09.2018</td>
+        <td align="center">22.08.2019</td>
         <td></td>
         <td></td>
     </tr>
