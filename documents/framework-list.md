@@ -14,7 +14,7 @@
         <th>Type</th>
         <th>Subtype</th>
         <th><a href="https://jrebel.com/webframeworksindex/)">ZT, 2017</a></th>
-        <th><a href="https://blogs.oracle.com/javamagazine/the-largest-survey-ever-of-java-developers">Java Magazine, 2018</a></th>
+        <th><a href="https://blogs.oracle.com/javamagazine/the-largest-survey-ever-of-java-developers">Java Mag., 2018</a></th>
     </tr>
     <tr>
         <td align="center">1</td>
@@ -268,11 +268,11 @@
         <td align="center">27</td>
         <td rowspan="7">MicroProfile</td>
         <td>KumuluzEE</td>
+        <td align="center">04.04.2016</td>
+        <td align="center">29.06.2019</td>
         <td align="center"></td>
         <td align="center"></td>
-        <td align="center"></td>
-        <td align="center"></td>
-        <td></td>
+        <td>MIT</td>
     </tr>
     <tr>
         <td align="center">28</td>
