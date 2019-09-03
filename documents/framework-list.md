@@ -152,15 +152,7 @@
         <td>Restlet</td>
         <td style="text-align:center">01.2013</td>
         <td style="text-align:center">01.2018</td>
-        <td>
-            <ul>
-                <li>Apache 2.0</li>
-                <li>LGPL 3.0</li>
-                <li>LGPL 2.1</li>
-                <li>CDDL 1.0</li>
-                <li>EPL 1.0</li>
-            </ul>
-        </td>
+        <td>Apache 2.0, LGPL 3.0, LGPL 2.1, CDDL 1.0, EPL 1.0</td>
     </tr>
     <tr>
         <td style="text-align:center">16</td>
@@ -220,12 +212,7 @@
         <td style="text-align:center">22.08.2019</td>
         <td style="text-align:center">0,76</td>
         <td style="text-align:center"></td>
-        <td>
-            <ul>
-                <li>Apache 2.0</li>
-                <li>EPL 2.0</li>
-            </ul>
-        </td>
+        <td>Apache 2.0, EPL 2.0</td>
     </tr>
     <tr>
         <td style="text-align:center">22</td>
