@@ -300,6 +300,7 @@
 <table>
     <tr>
         <th rowspan="2">№</th>
+        <th rowspan="2">Specification</th>
         <th colspan="9">MicroProfile Version</th>
     </tr>
     <tr>
@@ -315,147 +316,159 @@
     </tr>
     <tr>
         <td align="center">1</td>
-        <td><a href="http://cdi-spec.org">CDI</a> 1.2</td>
-        <td><a href="http://cdi-spec.org">CDI</a> 1.2</td>
-        <td><a href="http://cdi-spec.org">CDI</a> 1.2</td>
-        <td><a href="http://cdi-spec.org">CDI</a> 1.2</td>
-        <td><a href="http://cdi-spec.org">CDI</a> 1.2</td>
-        <td><a href="http://cdi-spec.org">CDI</a> 2.0</td>
-        <td><a href="http://cdi-spec.org">CDI</a> 2.0</td>
-        <td><a href="http://cdi-spec.org">CDI</a> 2.0</td>
-        <td><a href="http://cdi-spec.org">CDI</a> 2.0</td>
+        <td><a href="http://cdi-spec.org">CDI</a></td>
+        <td align="center">1.2</td>
+        <td align="center">1.2</td>
+        <td align="center">1.2</td>
+        <td align="center">1.2</td>
+        <td align="center">1.2</td>
+        <td align="center">2.0</td>
+        <td align="center">2.0</td>
+        <td align="center">2.0</td>
+        <td align="center">2.0</td>
     </tr>
     <tr>
         <td align="center">2</td>
+        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Config">Config</a></td>
         <td></td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Config">Config</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Config">Config</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Config">Config</a> 1.2</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Config">Config</a> 1.3</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Config">Config</a> 1.3</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Config">Config</a> 1.3</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Config">Config</a> 1.3</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Config">Config</a> 1.3</td>
+        <td align="center">1.0</td>
+        <td align="center">1.1</td>
+        <td align="center">1.2</td>
+        <td align="center">1.3</td>
+        <td align="center">1.3</td>
+        <td align="center">1.3</td>
+        <td align="center">1.3</td>
+        <td align="center">1.3</td>
     </tr>
     <tr>
         <td align="center">3</td>
+        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Fault_Tolerance">Fault Tolerance</a></td>
         <td></td>
         <td></td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Fault_Tolerance">Fault Tolerance</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Fault_Tolerance">Fault Tolerance</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Fault_Tolerance">Fault Tolerance</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Fault_Tolerance">Fault Tolerance</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Fault_Tolerance">Fault Tolerance</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Fault_Tolerance">Fault Tolerance</a> 2.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Fault_Tolerance">Fault Tolerance</a> 2.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
+        <td align="center">2.0</td>
+        <td align="center">2.0</td>
     </tr>
     <tr>
         <td align="center">4</td>
+        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Health">Health</a></td>
         <td></td>
         <td></td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Health">Health</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Health">Health</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Health">Health</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Health">Health</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Health">Health</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Health">Health</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Health">Health</a> 2.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">2.0</td>
     </tr>
     <tr>
         <td align="center">5</td>
-        <td><a href="https://github.com/jax-rs">JAX-RS</a> 2.0</td>
-        <td><a href="https://github.com/jax-rs">JAX-RS</a> 2.0</td>
-        <td><a href="https://github.com/jax-rs">JAX-RS</a> 2.0</td>
-        <td><a href="https://github.com/jax-rs">JAX-RS</a> 2.0</td>
-        <td><a href="https://github.com/jax-rs">JAX-RS</a> 2.0</td>
-        <td><a href="https://github.com/jax-rs">JAX-RS</a> 2.1</td>
-        <td><a href="https://github.com/jax-rs">JAX-RS</a> 2.1</td>
-        <td><a href="https://github.com/jax-rs">JAX-RS</a> 2.1</td>
-        <td><a href="https://github.com/jax-rs">JAX-RS</a> 2.1</td>
+        <td><a href="https://github.com/jax-rs">JAX-RS</a></td>
+        <td align="center">2.0</td>
+        <td align="center">2.0</td>
+        <td align="center">2.0</td>
+        <td align="center">2.0</td>
+        <td align="center">2.0</td>
+        <td align="center">2.1</td>
+        <td align="center">2.1</td>
+        <td align="center">2.1</td>
+        <td align="center">2.1</td>
     </tr>
     <tr>
         <td align="center">6</td>
+        <td><a href="http://json-b.net">JSON-B</a></td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
-        <td><a href="http://json-b.net">JSON-B</a> 1.0</td>
-        <td><a href="http://json-b.net">JSON-B</a> 1.0</td>
-        <td><a href="http://json-b.net">JSON-B</a> 1.0</td>
-        <td><a href="http://json-b.net">JSON-B</a> 1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
     </tr>
     <tr>
         <td align="center">7</td>
-        <td><a href="https://javaee.github.io/jsonp">JSON-P</a> 1.0</td>
-        <td><a href="https://javaee.github.io/jsonp">JSON-P</a> 1.0</td>
-        <td><a href="https://javaee.github.io/jsonp">JSON-P</a> 1.0</td>
-        <td><a href="https://javaee.github.io/jsonp">JSON-P</a> 1.0</td>
-        <td><a href="https://javaee.github.io/jsonp">JSON-P</a> 1.0</td>
-        <td><a href="https://javaee.github.io/jsonp">JSON-P</a> 1.1</td>
-        <td><a href="https://javaee.github.io/jsonp">JSON-P</a> 1.1</td>
-        <td><a href="https://javaee.github.io/jsonp">JSON-P</a> 1.1</td>
-        <td><a href="https://javaee.github.io/jsonp">JSON-P</a> 1.1</td>
+        <td><a href="https://javaee.github.io/jsonp">JSON-P</a></td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
     </tr>
     <tr>
         <td align="center">8</td>
+        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_JWT">JWT Auth</a></td>
         <td></td>
         <td></td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_JWT">JWT Auth</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_JWT">JWT Auth</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_JWT">JWT Auth</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_JWT">JWT Auth</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_JWT">JWT Auth</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_JWT">JWT Auth</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_JWT">JWT Auth</a> 1.1</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
     </tr>
     <tr>
         <td align="center">9</td>
+        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Metrics">Metrics</a></td>
         <td></td>
         <td></td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Metrics">Metrics</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Metrics">Metrics</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Metrics">Metrics</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Metrics">Metrics</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Metrics">Metrics</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Metrics">Metrics</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Metrics">Metrics</a> 2.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
+        <td align="center">2.0</td>
     </tr>
     <tr>
         <td align="center">10</td>
+        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Open_API">Open API</a></td>
         <td></td>
         <td></td>
         <td></td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Open_API">Open API</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Open_API">Open API</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Open_API">Open API</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Open_API">Open API</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Open_API">Open API</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Open_API">Open API</a> 1.1</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.0</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
     </tr>
     <tr>
         <td align="center">11</td>
+        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Open_Tracing">Open Tracing</a></td>
         <td></td>
         <td></td>
         <td></td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Open_Tracing">Open Tracing</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Open_Tracing">Open Tracing</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Open_Tracing">Open Tracing</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Open_Tracing">Open Tracing</a> 1.2</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Open_Tracing">Open Tracing</a> 1.3</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Open_Tracing">Open Tracing</a> 1.3</td>
+        <td align="center">1.0</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
+        <td align="center">1.2</td>
+        <td align="center">1.3</td>
+        <td align="center">1.3</td>
     </tr>
     <tr>
         <td align="center">12</td>
+        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Type_Safe_REST_Client">Type Safe Rest Client</a></td>
         <td></td>
         <td></td>
         <td></td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Type_Safe_REST_Client">Type Safe Rest Client</a> 1.0</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Type_Safe_REST_Client">Type Safe Rest Client</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Type_Safe_REST_Client">Type Safe Rest Client</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Type_Safe_REST_Client">Type Safe Rest Client</a> 1.1</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Type_Safe_REST_Client">Type Safe Rest Client</a> 1.2</td>
-        <td><a href="https://wiki.eclipse.org/MicroProfile/Implementation#MP_Type_Safe_REST_Client">Type Safe Rest Client</a> 1.3</td>
+        <td align="center">1.0</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
+        <td align="center">1.1</td>
+        <td align="center">1.2</td>
+        <td align="center">1.3</td>
     </tr>
 </table>
 
