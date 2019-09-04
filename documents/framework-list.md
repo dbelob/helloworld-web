@@ -491,48 +491,48 @@
     </tr>
     <tr>
         <td align="center">1</td>
-        <td>KumuluzEE</td>
-        <td><a href="https://ee.kumuluz.com">KumuluzEE 2.1.0</a></td>
-        <td><a href="https://ee.kumuluz.com">KumuluzEE 2.5.2</a></td>
-        <td><a href="https://ee.kumuluz.com">KumuluzEE 3.0.0</a></td>
-        <td><a href="https://ee.kumuluz.com">KumuluzEE 3.2.0</a></td>
-        <td><a href="https://ee.kumuluz.com">KumuluzEE 3.2.0</a></td>
-        <td><a href="https://ee.kumuluz.com">KumuluzEE 3.2.0</a></td>
-        <td><a href="https://ee.kumuluz.com">KumuluzEE 3.2.0</a></td>
-        <td><a href="https://ee.kumuluz.com">KumuluzEE 3.5.0</a></td>
+        <td><a href="https://ee.kumuluz.com">KumuluzEE</a></td>
+        <td align="center">2.1.0</td>
+        <td align="center">2.5.2</td>
+        <td align="center">3.0.0</td>
+        <td align="center">3.2.0</td>
+        <td align="center">3.2.0</td>
+        <td align="center">3.2.0</td>
+        <td align="center">3.2.0</td>
+        <td align="center">3.5.0</td>
         <td></td>
     </tr>
     <tr>
         <td align="center">2</td>
-        <td>TomEE</td>
-        <td><a href="http://tomee.apache.org/download-ng.html">TomEE 7.1.0</a></td>
+        <td><a href="http://tomee.apache.org">TomEE</a></td>
+        <td align="center">7.1.0</td>
         <td></td>
         <td></td>
-        <td><a href="http://tomee.apache.org/download-ng.html">TomEE 8.0.0-M1</a></td>
+        <td align="center">8.0.0-M1</td>
         <td></td>
-        <td><a href="http://tomee.apache.org/download-ng.html">TomEE 8.0.0-M2</a></td>
-        <td><a href="http://tomee.apache.org/download-ng.html">TomEE 8.0.0-M3</a></td>
+        <td align="center">8.0.0-M2</td>
+        <td align="center">8.0.0-M3</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td align="center">3</td>
-        <td>Open Liberty</td>
+        <td><a href="https://openliberty.io">Open Liberty</a></td>
         <td></td>
         <td></td>
-        <td><a href="https://openliberty.io/downloads">Open Liberty 17.0.0.3</a></td>
-        <td><a href="https://openliberty.io/downloads">Open Liberty 18.0.0.1</a></td>
-        <td><a href="https://openliberty.io/downloads">Open Liberty 18.0.0.3</a></td>
-        <td><a href="https://openliberty.io/downloads">Open Liberty 18.0.0.3</a></td>
-        <td><a href="https://openliberty.io/downloads">Open Liberty 18.0.0.4</a></td>
-        <td><a href="https://openliberty.io/downloads">Open Liberty 19.0.0.3</a></td>
-        <td><a href="https://openliberty.io/downloads">Open Liberty 19.0.0.7</a></td>
+        <td align="center">17.0.0.3</td>
+        <td align="center">18.0.0.1</td>
+        <td align="center">18.0.0.3</td>
+        <td align="center">18.0.0.3</td>
+        <td align="center">18.0.0.4</td>
+        <td align="center">19.0.0.3</td>
+        <td align="center">19.0.0.7</td>
     </tr>
     <tr>
         <td align="center">4</td>
-        <td>Hammock</td>
+        <td><a href="https://hammock-project.github.io">Hammock</a></td>
         <td></td>
-        <td><a href="https://github.com/hammock-project">Hammock 2.0</a></td>
+        <td align="center">2.0</td>
         <td></td>
         <td></td>
         <td></td>
@@ -543,41 +543,41 @@
     </tr>
     <tr>
         <td align="center">5</td>
-        <td>Thorntail</td>
+        <td><a href="https://thorntail.io">Thorntail</a></td>
         <td></td>
         <td></td>
         <td></td>
-        <td><a href="https://thorntail.io/posts/announcing-thorntail-2-1-0-final">Thorntail 2.1.0.Final</a></td>
+        <td align="center">2.1.0.Final</td>
         <td></td>
         <td></td>
-        <td><a href="https://thorntail.io/posts/announcing-thorntail-2-3-0-final">Thorntail 2.3.0.Final</a></td>
-        <td><a href="https://thorntail.io/posts/announcing-thorntail-2-4-0-final">Thorntail 2.4.0.Final</a></td>
-        <td><a href="https://thorntail.io/posts/announcing-thorntail-2-5-0-final">Thorntail 2.5.0.Final</a></td>
+        <td align="center">2.3.0.Final</td>
+        <td align="center">2.4.0.Final</td>
+        <td align="center">2.5.0.Final</td>
     </tr>
     <tr>
         <td align="center">6</td>
-        <td>Payara Micro</td>
+        <td><a href="https://www.payara.fish/payara_micro">Payara Micro</a></td>
         <td></td>
-        <td><a href="https://www.payara.fish/previous_releases">Payara Micro 174</a></td>
-        <td><a href="https://www.payara.fish/previous_releases">Payara Micro 181</a></td>
-        <td><a href="https://www.payara.fish/previous_releases">Payara Micro 182</a></td>
-        <td><a href="https://www.payara.fish/downloads">Payara Micro 183</a></td>
-        <td><a href="https://www.payara.fish/downloads">Payara Micro 183</a></td>
-        <td><a href="https://www.payara.fish/downloads">Payara Micro 191</a></td>
-        <td><a href="https://www.payara.fish/downloads">Payara Micro 192</a></td>
+        <td align="center">174</td>
+        <td align="center">181</td>
+        <td align="center">182</td>
+        <td align="center">183</td>
+        <td align="center">183</td>
+        <td align="center">191</td>
+        <td align="center">192</td>
         <td></td>
     </tr>
     <tr>
         <td align="center">7</td>
-        <td>Helidon</td>
+        <td><a href="https://helidon.io">Helidon</a></td>
         <td></td>
-        <td><a href="https://github.com/oracle/helidon/releases">Helidon 0.9.4</a></td>
-        <td><a href="https://github.com/oracle/helidon/releases">Helidon 1.0</a></td>
-        <td><a href="https://github.com/oracle/helidon/releases/tag/1.2.0">Helidon 1.2.0</a></td>
-        <td><a href="https://github.com/oracle/helidon/releases/tag/1.2.0">Helidon 1.2.0</a></td>
-        <td><a href="https://github.com/oracle/helidon/releases/tag/1.2.0">Helidon 1.2.0</a></td>
-        <td><a href="https://github.com/oracle/helidon/releases/tag/1.2.0">Helidon 1.2.0</a></td>
-        <td><a href="https://github.com/oracle/helidon/releases/tag/1.2.0">Helidon 1.2.0</a></td>
+        <td align="center">0.9.4</td>
+        <td align="center">1.0</td>
+        <td align="center">1.2.0</td>
+        <td align="center">1.2.0</td>
+        <td align="center">1.2.0</td>
+        <td align="center">1.2.0</td>
+        <td align="center">1.2.0</td>
         <td></td>
     </tr>
 </table>
