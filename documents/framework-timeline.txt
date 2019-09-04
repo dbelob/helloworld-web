@@ -10,9 +10,17 @@ ScaleMajor = increment:1 start:2000
 ScaleMinor = increment:2 start:2000
 
 Colors =
-  id:spring  value:green  legend:Spring
-  id:jsf  value:blue  legend:JavaServer&nbsp;Faces
-  id:gwt  value:red  legend:Google&nbsp;Web&nbsp;Toolkit
+  id:spring value:green legend:Spring
+  id:jsf value:rgb(0.96,0.64,0) legend:JavaServer&nbsp;Faces
+  id:gwt value:red legend:Google&nbsp;Web&nbsp;Toolkit
+  id:grails value:rgb(0.2,0.42,0.1) legend:Grails
+  id:struts value:rgb(0.28,0.5,0.76) legend:Struts
+  id:dropwizard value:rgb(0.85,0.88,0.90) legend:Dropwizard
+  id:play value:rgb(0.57,0.82,0.24) legend:Play
+  id:jhipster value:rgb(0.69,0.56,0.49) legend:JHipster
+  id:jaxrs value:rgb(1,0.87,0.36) legend:JAX-RS
+  id:vaadin value:rgb(0,0.71,0.94) legend:Vaadin
+  id:seam value:rgb(0.54,0.62,0.65) legend:Seam
 
 LineData =
   at:01/01/2001 color:black layer:back width:0.1
@@ -42,4 +50,15 @@ PlotData=
   bar:Apache&nbsp;MyFaces from:01/11/2005 till:23/05/2019 color:jsf width:3
   bar:Eclipse&nbsp;Mojarra from:03/03/2004 till:30/11/2018 color:jsf width:3
   bar:Google&nbsp;Web&nbsp;Toolkit from:16/05/2006 till:19/10/2017 color:gwt width:3
+  bar:Grails from:01/10/2005 till:11/07/2019 color:grails width:3
+  bar:Struts from:01/05/2000 till:09/01/2019 color:struts width:3
+  bar:Dropwizard from:21/12/2011 till:07/08/2019 color:dropwizard width:3
+  bar:Play from:01/05/2008 till:19/06/2019 color:play width:3
+  bar:JHipster from:21/10/2013 till:01/08/2019 color:jhipster width:3
+  bar:Apache&nbsp;CXF from:01/04/2008 till:13/08/2019 color:jaxrs width:3
+  bar:Jersey from:01/05/2010 till:25/06/2019 color:jaxrs width:3
+  bar:RESTEasy from:01/09/2008 till:30/08/2019 color:jaxrs width:3
+  bar:Restlet from:01/01/2013 till:01/01/2018 color:jaxrs width:3
+  bar:Vaadin from:01/01/2006 till:26/08/2019 color:vaadin width:3
+  bar:Seam from:01/01/2007 till:25/07/2013 color:seam width:3
 }}
