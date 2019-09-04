@@ -224,7 +224,7 @@
         <td>Micronaut</td>
         <td></td>
         <td align="center">23.10.2018</td>
-        <td align="center">29.01.2019</td>
+        <td align="center">06.08.2019</td>
         <td align="center"></td>
         <td align="center"></td>
     </tr>
