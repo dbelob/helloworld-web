@@ -55,36 +55,36 @@ LineData =
 
 PlotData=
   width:11 textcolor:black align:left anchor:from shift:(10,-4)
-  bar:Spring&nbsp;MVC from:01/12/2005 till:02/08/2019 color:spring width:3
-  bar:Spring&nbsp;Boot from:01/04/2014 till:02/08/2019 color:spring width:3
-  bar:Eclipse&nbsp;Mojarra&nbsp;(JSF) from:03/03/2004 till:30/11/2018 color:jsf width:3
-  bar:Apache&nbsp;MyFaces&nbsp;(JSF) from:01/11/2005 till:23/05/2019 color:jsf width:3
-  bar:Google&nbsp;Web&nbsp;Toolkit from:16/05/2006 till:19/10/2017 color:gwt width:3
-  bar:Grails from:01/10/2005 till:11/07/2019 color:grails width:3
+  bar:Tapestry from:01/01/2000 till:18/12/2018 color:tapestry width:3
   bar:Struts from:01/05/2000 till:09/01/2019 color:struts width:3
-  bar:Dropwizard from:21/12/2011 till:07/08/2019 color:dropwizard width:3
-  bar:Play from:01/05/2008 till:19/06/2019 color:play width:3
-  bar:JHipster from:21/10/2013 till:01/08/2019 color:jhipster width:3
+  bar:Eclipse&nbsp;Mojarra&nbsp;(JSF) from:03/03/2004 till:30/11/2018 color:jsf width:3
+  bar:Wicket from:01/06/2005 till:28/05/2019 color:wicket width:3
+  bar:Grails from:01/10/2005 till:11/07/2019 color:grails width:3
+  bar:Apache&nbsp;MyFaces&nbsp;(JSF) from:01/11/2005 till:23/05/2019 color:jsf width:3
+  bar:Spring&nbsp;MVC from:01/12/2005 till:02/08/2019 color:spring width:3
+  bar:Vaadin from:01/01/2006 till:26/08/2019 color:vaadin width:3
+  bar:Google&nbsp;Web&nbsp;Toolkit from:16/05/2006 till:19/10/2017 color:gwt width:3
+  bar:Seam from:01/01/2007 till:25/07/2013 color:seam width:3
   bar:Apache&nbsp;CXF&nbsp;(JAX-RS) from:01/04/2008 till:13/08/2019 color:jaxrs width:3
+  bar:Play from:01/05/2008 till:19/06/2019 color:play width:3
   bar:RESTEasy&nbsp;(JAX-RS) from:01/09/2008 till:30/08/2019 color:jaxrs width:3
   bar:Jersey&nbsp;(JAX-RS) from:01/05/2010 till:25/06/2019 color:jaxrs width:3
-  bar:Restlet&nbsp;(JAX-RS) from:01/01/2013 till:01/01/2018 color:jaxrs width:3
-  bar:Vaadin from:01/01/2006 till:26/08/2019 color:vaadin width:3
-  bar:Seam from:01/01/2007 till:25/07/2013 color:seam width:3
-  bar:Wicket from:01/06/2005 till:28/05/2019 color:wicket width:3
-  bar:Tapestry from:01/01/2000 till:18/12/2018 color:tapestry width:3
   bar:Spark&nbsp;Java from:01/01/2011 till:22/05/2019 color:sparkjava width:3
   bar:Vert.x from:01/01/2011 till:22/08/2019 color:vertx width:3
-  bar:Rapidoid from:01/08/2014 till:01/05/2018 color:rapidoid width:3
-  bar:Lagom from:01/03/2016 till:01/05/2019 color:lagom width:3
-  bar:Ratpack from:01/01/2013 till:18/08/2019 color:ratpack width:3
-  bar:Micronaut from:23/10/2018 till:06/08/2019 color:micronaut width:3
-  bar:Javalin from:24/05/2017 till:11/08/2019 color:javalin width:3
+  bar:Dropwizard from:21/12/2011 till:07/08/2019 color:dropwizard width:3
   bar:TomEE&nbsp;(MicroProfile) from:27/04/2012 till:21/06/2019 color:mp width:3
+  bar:Restlet&nbsp;(JAX-RS) from:01/01/2013 till:01/01/2018 color:jaxrs width:3
+  bar:Ratpack from:01/01/2013 till:18/08/2019 color:ratpack width:3
+  bar:JHipster from:21/10/2013 till:01/08/2019 color:jhipster width:3
   bar:Hammock&nbsp;(MicroProfile) from:27/02/2014 till:05/03/2018 color:mp width:3
+  bar:Spring&nbsp;Boot from:01/04/2014 till:02/08/2019 color:spring width:3
+  bar:Rapidoid from:01/08/2014 till:01/05/2018 color:rapidoid width:3
   bar:Thorntail&nbsp;(MicroProfile) from:01/01/2016 till:17/07/2019 color:mp width:3
+  bar:Lagom from:01/03/2016 till:01/05/2019 color:lagom width:3
   bar:KumuluzEE&nbsp;(MicroProfile) from:04/04/2016 till:29/06/2019 color:mp width:3
+  bar:Javalin from:24/05/2017 till:11/08/2019 color:javalin width:3
   bar:Payara&nbsp;Micro&nbsp;(MicroProfile) from:01/07/2017 till:01/06/2019 color:mp width:3
   bar:Open&nbsp;Liberty&nbsp;(MicroProfile) from:19/09/2017 till:14/08/2019 color:mp width:3
   bar:Helidon&nbsp;(MicroProfile) from:19/09/2018 till:22/08/2019 color:mp width:3
+  bar:Micronaut from:23/10/2018 till:06/08/2019 color:micronaut width:3
 }}
