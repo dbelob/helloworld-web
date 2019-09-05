@@ -45,17 +45,17 @@
     <tr>
         <td align="center">4</td>
         <td rowspan="2">JavaServer Faces</td>
-        <td>Apache MyFaces</td>
-        <td align="center">11.2005</td>
-        <td align="center">23.05.2019</td>
+        <td>Eclipse Mojarra</td>
+        <td align="center">03.03.2004</td>
+        <td align="center">30.11.2018</td>
         <td rowspan="2" align="center">15,2</td>
         <td rowspan="2" align="center">19</td>
     </tr>
     <tr>
         <td align="center">5</td>        
-        <td>Eclipse Mojarra</td>
-        <td align="center">03.03.2004</td>
-        <td align="center">30.11.2018</td>
+        <td>Apache MyFaces</td>
+        <td align="center">11.2005</td>
+        <td align="center">23.05.2019</td>
     </tr>
     <tr>
         <td align="center">6</td>
@@ -122,15 +122,15 @@
     </tr>
     <tr>
         <td align="center">13</td>
-        <td>Jersey</td>
-        <td align="center">05.2010</td>
-        <td align="center">25.06.2019</td>
-    </tr>
-    <tr>
-        <td align="center">14</td>        
         <td>RESTEasy</td>
         <td align="center">09.2008</td>
         <td align="center">30.08.2019</td>
+    </tr>
+    <tr>
+        <td align="center">14</td>        
+        <td>Jersey</td>
+        <td align="center">05.2010</td>
+        <td align="center">25.06.2019</td>
     </tr>
     <tr>
         <td align="center">15</td>
@@ -240,14 +240,6 @@
     <tr>
         <td align="center">27</td>
         <td rowspan="7">MicroProfile</td>
-        <td>KumuluzEE</td>
-        <td align="center">04.04.2016</td>
-        <td align="center">29.06.2019</td>
-        <td align="center"></td>
-        <td align="center"></td>
-    </tr>
-    <tr>
-        <td align="center">28</td>
         <td>TomEE</td>
         <td align="center">27.04.2012</td>
         <td align="center">21.06.2019</td>
@@ -255,15 +247,7 @@
         <td></td>
     </tr>
     <tr>
-        <td align="center">29</td>
-        <td>Open Liberty</td>
-        <td align="center">19.09.2017</td>
-        <td align="center">14.08.2019</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td align="center">30</td>
+        <td align="center">28</td>
         <td>Hammock</td>
         <td align="center">27.02.2014</td>
         <td align="center">05.03.2018</td>
@@ -271,7 +255,7 @@
         <td></td>
     </tr>
     <tr>
-        <td align="center">31</td>
+        <td align="center">29</td>
         <td>Thorntail</td>
         <td align="center">01.2016</td>
         <td align="center">17.07.2019</td>
@@ -279,10 +263,26 @@
         <td></td>
     </tr>
     <tr>
-        <td align="center">32</td>
+        <td align="center">30</td>
+        <td>KumuluzEE</td>
+        <td align="center">04.04.2016</td>
+        <td align="center">29.06.2019</td>
+        <td align="center"></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center">31</td>
         <td>Payara Micro</td>
         <td align="center">07.2017</td>
         <td align="center">06.2019</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td align="center">32</td>
+        <td>Open Liberty</td>
+        <td align="center">19.09.2017</td>
+        <td align="center">14.08.2019</td>
         <td></td>
         <td></td>
     </tr>
@@ -491,19 +491,6 @@
     </tr>
     <tr>
         <td align="center">1</td>
-        <td><a href="https://ee.kumuluz.com">KumuluzEE</a></td>
-        <td align="center">2.1.0</td>
-        <td align="center">2.5.2</td>
-        <td align="center">3.0.0</td>
-        <td align="center">3.2.0</td>
-        <td align="center">3.2.0</td>
-        <td align="center">3.2.0</td>
-        <td align="center">3.2.0</td>
-        <td align="center">3.5.0</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td align="center">2</td>
         <td><a href="http://tomee.apache.org">TomEE</a></td>
         <td align="center">7.1.0</td>
         <td></td>
@@ -516,20 +503,7 @@
         <td></td>
     </tr>
     <tr>
-        <td align="center">3</td>
-        <td><a href="https://openliberty.io">Open Liberty</a></td>
-        <td></td>
-        <td></td>
-        <td align="center">17.0.0.3</td>
-        <td align="center">18.0.0.1</td>
-        <td align="center">18.0.0.3</td>
-        <td align="center">18.0.0.3</td>
-        <td align="center">18.0.0.4</td>
-        <td align="center">19.0.0.3</td>
-        <td align="center">19.0.0.7</td>
-    </tr>
-    <tr>
-        <td align="center">4</td>
+        <td align="center">2</td>
         <td><a href="https://hammock-project.github.io">Hammock</a></td>
         <td></td>
         <td align="center">2.0</td>
@@ -542,7 +516,7 @@
         <td></td>
     </tr>
     <tr>
-        <td align="center">5</td>
+        <td align="center">3</td>
         <td><a href="https://thorntail.io">Thorntail</a></td>
         <td></td>
         <td></td>
@@ -555,7 +529,20 @@
         <td align="center">2.5.0.Final</td>
     </tr>
     <tr>
-        <td align="center">6</td>
+        <td align="center">4</td>
+        <td><a href="https://ee.kumuluz.com">KumuluzEE</a></td>
+        <td align="center">2.1.0</td>
+        <td align="center">2.5.2</td>
+        <td align="center">3.0.0</td>
+        <td align="center">3.2.0</td>
+        <td align="center">3.2.0</td>
+        <td align="center">3.2.0</td>
+        <td align="center">3.2.0</td>
+        <td align="center">3.5.0</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td align="center">5</td>
         <td><a href="https://www.payara.fish/payara_micro">Payara Micro</a></td>
         <td></td>
         <td align="center">174</td>
@@ -566,6 +553,19 @@
         <td align="center">191</td>
         <td align="center">192</td>
         <td></td>
+    </tr>
+    <tr>
+        <td align="center">6</td>
+        <td><a href="https://openliberty.io">Open Liberty</a></td>
+        <td></td>
+        <td></td>
+        <td align="center">17.0.0.3</td>
+        <td align="center">18.0.0.1</td>
+        <td align="center">18.0.0.3</td>
+        <td align="center">18.0.0.3</td>
+        <td align="center">18.0.0.4</td>
+        <td align="center">19.0.0.3</td>
+        <td align="center">19.0.0.7</td>
     </tr>
     <tr>
         <td align="center">7</td>
