@@ -13,8 +13,8 @@ Creating a simple web application on *Java* in various ways:
    * [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#spring-web)
    * [Spring WebFlux](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#spring-webflux)
 1. [JavaServer Faces](https://javaee.github.io/javaserverfaces-spec/):
-   * [Apache MyFaces](http://myfaces.apache.org)
    * [Eclipse Mojarra](https://projects.eclipse.org/projects/ee4j.mojarra)
+   * [Apache MyFaces](http://myfaces.apache.org)
 1. [Google Web Toolkit](http://www.gwtproject.org)
 1. [Grails](https://grails.org)
 1. [Struts](https://struts.apache.org)
@@ -23,8 +23,8 @@ Creating a simple web application on *Java* in various ways:
 1. [JHipster](https://www.jhipster.tech)
 1. [JAX-RS](https://github.com/jax-rs):
    * [Apache CXF](http://cxf.apache.org)
-   * [Jersey](https://jersey.github.io)
    * [RESTEasy](https://resteasy.github.io)
+   * [Jersey](https://jersey.github.io)
    * [Restlet](https://restlet.com)
 1. [Vaadin](https://vaadin.com)
 1. [Seam](http://seamframework.org)
@@ -38,12 +38,12 @@ Creating a simple web application on *Java* in various ways:
 1. [Micronaut](https://micronaut.io)
 1. [Javalin](https://javalin.io)
 1. [MicroProfile](https://microprofile.io):
-   * [KumuluzEE](https://ee.kumuluz.com)
    * [TomEE](http://tomee.apache.org)
-   * [Open Liberty](https://openliberty.io)
    * [Hammock](https://hammock-project.github.io)
    * [Thorntail](https://thorntail.io)
+   * [KumuluzEE](https://ee.kumuluz.com)
    * [Payara Micro](https://www.payara.fish/payara_micro)
+   * [Open Liberty](https://openliberty.io)
    * [Helidon](https://helidon.io)
 
 ## Requirements
@@ -59,7 +59,7 @@ Creating a simple web application on *Java* in various ways:
 1. From the command line with Maven:
 
     `mvn jetty:run`  
-    (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-interface-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*, *helloworld-web-jsf-myfaces*, *helloworld-web-jsf-mojarra*, *helloworld-web-struts*, *helloworld-web-jaxrs-apache-cxf*, *helloworld-web-jaxrs-jersey*, *helloworld-web-jaxrs-resteasy*, *helloworld-web-jaxrs-restlet*, *helloworld-web-vaadin*, *helloworld-web-seam*, *helloworld-web-wicket*, *helloworld-web-tapestry* modules)
+    (for *helloworld-web-servlet-xml*, *helloworld-web-servlet-annotation*, *helloworld-web-servlet-interface-war*, *helloworld-web-spring-mvc-xml*, *helloworld-web-spring-mvc-java*, *helloworld-web-jsf-mojarra*, *helloworld-web-jsf-myfaces*, *helloworld-web-struts*, *helloworld-web-jaxrs-apache-cxf*, *helloworld-web-jaxrs-resteasy*, *helloworld-web-jaxrs-jersey*, *helloworld-web-jaxrs-restlet*, *helloworld-web-vaadin*, *helloworld-web-seam*, *helloworld-web-wicket*, *helloworld-web-tapestry* modules)
 
     `mvn spring-boot:run`  
     (for *helloworld-web-spring-boot-mvc*, *helloworld-web-spring-boot-webflux*, *helloworld-web-jhipster* modules)
@@ -86,7 +86,7 @@ Creating a simple web application on *Java* in various ways:
     
     `mvn package`  
     `java -jar target/hello-world.jar`  
-    (for *helloworld-web-sparkjava*, *helloworld-web-vertx*, *helloworld-web-rapidoid*, *helloworld-web-ratpack*, *helloworld-web-micronaut*, *helloworld-web-javalin*, *helloworld-web-microprofile-kumuluzee*, *helloworld-web-microprofile-openliberty*, *helloworld-web-microprofile-hammock*, *helloworld-web-microprofile-helidon* modules)
+    (for *helloworld-web-sparkjava*, *helloworld-web-vertx*, *helloworld-web-rapidoid*, *helloworld-web-ratpack*, *helloworld-web-micronaut*, *helloworld-web-javalin*, *helloworld-web-microprofile-hammock*, *helloworld-web-microprofile-kumuluzee*, *helloworld-web-microprofile-openliberty*, *helloworld-web-microprofile-helidon* modules)
     
     `mvn package`  
     `java -jar target/hello-world-exec.jar`  

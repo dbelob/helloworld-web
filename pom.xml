@@ -53,8 +53,8 @@
         <module>helloworld-web-spring-mvc-java</module>
         <module>helloworld-web-spring-boot-mvc</module>
         <module>helloworld-web-spring-boot-webflux</module>
-        <module>helloworld-web-jsf-myfaces</module>
         <module>helloworld-web-jsf-mojarra</module>
+        <module>helloworld-web-jsf-myfaces</module>
         <module>helloworld-web-gwt-client</module>
         <module>helloworld-web-gwt-shared</module>
         <module>helloworld-web-gwt-server</module>
@@ -64,8 +64,8 @@
         <module>helloworld-web-play</module>
         <module>helloworld-web-jhipster</module>
         <module>helloworld-web-jaxrs-apache-cxf</module>
-        <module>helloworld-web-jaxrs-jersey</module>
         <module>helloworld-web-jaxrs-resteasy</module>
+        <module>helloworld-web-jaxrs-jersey</module>
         <module>helloworld-web-jaxrs-restlet</module>
         <module>helloworld-web-vaadin</module>
         <module>helloworld-web-seam</module>
@@ -79,12 +79,12 @@
         <module>helloworld-web-ratpack</module>
         <module>helloworld-web-micronaut</module>
         <module>helloworld-web-javalin</module>
-        <module>helloworld-web-microprofile-kumuluzee</module>
         <module>helloworld-web-microprofile-tomee</module>
-        <module>helloworld-web-microprofile-openliberty</module>
         <module>helloworld-web-microprofile-hammock</module>
         <module>helloworld-web-microprofile-thorntail</module>
+        <module>helloworld-web-microprofile-kumuluzee</module>
         <module>helloworld-web-microprofile-payara</module>
+        <module>helloworld-web-microprofile-openliberty</module>
         <module>helloworld-web-microprofile-helidon</module>
     </modules>
 
