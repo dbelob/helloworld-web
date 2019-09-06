@@ -20,6 +20,7 @@
 | 252 | [JavaServer Faces 1.2](https://www.jcp.org/en/jsr/detail?id=252) | JSF 1.2 | Maintenance | 2008-07-22 | 2008-08-25 |
 | 315 | [Java Servlet 3.0 Specification](https://www.jcp.org/en/jsr/detail?id=315) | **Servlets 3.0** | Maintenance | 2011-03-09 | |
 | 316 | [Java Platform, Enterprise Edition 6 (Java EE 6) Specification](https://www.jcp.org/en/jsr/detail?id=316) | **Java EE 6** | Final | 2009-12-10 | |
+| 339 | [JAX-RS 2.0: The Java API for RESTful Web Services](https://www.jcp.org/en/jsr/detail?id=339) | JAX-RS 2.0 | Maintenance | 2014-10-13 | |
 | 340 | [Java Servlet 3.1 Specification](https://www.jcp.org/en/jsr/detail?id=340) | **Servlets 3.1** | Final | 2013-05-28 | |
 | 342 | [Java Platform, Enterprise Edition 7 (Java EE 7) Specification](https://www.jcp.org/en/jsr/detail?id=342) | **Java EE 7** | Maintenance | 2015-07-03 | |
 | 366 | [Java Platform, Enterprise Edition 8 (Java EE 8) Specification](https://www.jcp.org/en/jsr/detail?id=366) | **Java EE 8** | Final | 2017-09-18 | |
