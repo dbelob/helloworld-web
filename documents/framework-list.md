@@ -16,11 +16,46 @@
         <th><a href="https://blogs.oracle.com/javamagazine/the-largest-survey-ever-of-java-developers">Java Magazine, 2018</a></th>
     </tr>
     <tr>
-        <td align="center">1</td>
-        <td>HTTP Servlet</td>
+        <td rowspan="6" align="center">1</td>
+        <td rowspan="6">Specifications</td>
+        <td>Servlet API</td>
+        <td align="center">12.1996</td>
+        <td align="center">05.09.2017</td>
         <td></td>
         <td></td>
+    </tr>    
+    <tr>
+        <td>JavaServer Pages</td>
+        <td align="center">27.09.1999</td>
+        <td align="center">12.06.2013</td>
         <td></td>
+        <td></td>
+    </tr>    
+    <tr>
+        <td>JavaServer Faces</td>
+        <td align="center">11.03.2004</td>
+        <td align="center">28.03.2017</td>
+        <td></td>
+        <td></td>
+    </tr>    
+    <tr>
+        <td>JAX-RS</td>
+        <td align="center">08.09.2008</td>
+        <td align="center">21.09.2017</td>
+        <td></td>
+        <td></td>
+    </tr>    
+    <tr>
+        <td>JAX-WS</td>
+        <td align="center">?</td>
+        <td align="center">21.09.2017</td>
+        <td></td>
+        <td></td>
+    </tr>    
+    <tr>
+        <td>J2EE/Java EE</td>
+        <td align="center">?</td>
+        <td align="center">?</td>
         <td></td>
         <td></td>
     </tr>    
@@ -46,7 +81,7 @@
         <td align="center">4</td>
         <td rowspan="2">JavaServer Faces</td>
         <td>Eclipse Mojarra</td>
-        <td align="center">03.03.2004</td>
+        <td align="center">03.2004</td>
         <td align="center">30.11.2018</td>
         <td rowspan="2" align="center">15,2</td>
         <td rowspan="2" align="center">19</td>
