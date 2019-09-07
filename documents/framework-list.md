@@ -61,8 +61,8 @@
     </tr>    
     <tr>
         <td align="center">2</td>
+        <td rowspan="2">Spring</td>
         <td>Spring MVC</td>
-        <td></td>
         <td align="center">12.2005</td>
         <td align="center">02.08.2019</td>
         <td align="center">28,82</td>
@@ -71,7 +71,6 @@
     <tr>
         <td align="center">3</td>
         <td>Spring Boot</td>
-        <td></td>
         <td align="center">04.2014</td>
         <td align="center">02.08.2019</td>
         <td align="center">13,35</td>
