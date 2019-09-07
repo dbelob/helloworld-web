@@ -11,6 +11,7 @@
 | 52  | [A Standard Tag Library for JavaServer Pages](https://www.jcp.org/en/jsr/detail?id=52) | JSP 1.1 | Maintenance | 2006-10-04 | 2006-11-06 |
 | 53  | [Java Servlet 2.3 and JavaServer Pages 1.2 Specifications](https://www.jcp.org/en/jsr/detail?id=53) | **Servlets 2.3**, JSP 1.2 | Maintenance | 2002-05-24 | 2002-06-24 |
 | 58  | [Java 2 Platform, Enterprise Edition 1.3 Specification](https://www.jcp.org/en/jsr/detail?id=58) | **J2EE 1.3** | Final | 2001-09-24 | |
+| 101 | [Java APIs for XML based RPC](https://www.jcp.org/en/jsr/detail?id=101) | JAX-RPC 1.0  | Final | 2003-10-28 | |
 | 151 | [Java 2 Platform, Enterprise Edition 1.4 (J2EE 1.4) Specification](https://www.jcp.org/en/jsr/detail?id=151) | **J2EE 1.4** | Maintenance | 2004-03-24 | 2004-04-26 |
 | 152 | [JavaServer Pages 2.0 Specification](https://www.jcp.org/en/jsr/detail?id=152) | JSP 2.0 | Final | 2003-11-24 | |
 | 154 | [Java Servlet 2.4 Specification](https://www.jcp.org/en/jsr/detail?id=154) | **Servlets 2.4, 2.5** | Maintenance | 2007-09-11 | |

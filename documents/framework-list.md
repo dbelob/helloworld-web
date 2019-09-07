@@ -17,7 +17,7 @@
     </tr>
     <tr>
         <td rowspan="6" align="center">1</td>
-        <td rowspan="6">Specifications</td>
+        <td rowspan="6">Specification</td>
         <td>Servlet API</td>
         <td align="center">12.1996</td>
         <td align="center">05.09.2017</td>
@@ -32,6 +32,20 @@
         <td></td>
     </tr>    
     <tr>
+        <td>J2EE, Java EE</td>
+        <td align="center">12.12.1999</td>
+        <td align="center">18.09.2017</td>
+        <td></td>
+        <td></td>
+    </tr>    
+    <tr>
+        <td>JAX-WS</td>
+        <td align="center">28.10.2003</td>
+        <td align="center">21.09.2017</td>
+        <td></td>
+        <td></td>
+    </tr>    
+    <tr>
         <td>JavaServer Faces</td>
         <td align="center">11.03.2004</td>
         <td align="center">28.03.2017</td>
@@ -42,20 +56,6 @@
         <td>JAX-RS</td>
         <td align="center">08.09.2008</td>
         <td align="center">21.09.2017</td>
-        <td></td>
-        <td></td>
-    </tr>    
-    <tr>
-        <td>JAX-WS</td>
-        <td align="center">?</td>
-        <td align="center">21.09.2017</td>
-        <td></td>
-        <td></td>
-    </tr>    
-    <tr>
-        <td>J2EE/Java EE</td>
-        <td align="center">?</td>
-        <td align="center">?</td>
         <td></td>
         <td></td>
     </tr>    
