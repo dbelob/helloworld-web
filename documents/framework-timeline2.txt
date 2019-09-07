@@ -1,15 +1,16 @@
 {{#tag:timeline|
-ImageSize = width:1100 height:auto barincrement:17
+ImageSize = width:1070 height:auto barincrement:17
 PlotArea = left:195 bottom:150 top:0 right:30
 Alignbars = justify
 DateFormat  = dd/mm/yyyy
-Period = from:01/01/2000 till:{{#time:d/m/Y}}
+Period = from:01/01/1996 till:{{#time:d/m/Y}}
 TimeAxis = orientation:horizontal format:yyyy
 Legend = orientation:vertical position:bottom columns:4
-ScaleMajor = increment:1 start:2000
-ScaleMinor = increment:2 start:2000
+ScaleMajor = increment:1 start:1996
+ScaleMinor = increment:2 start:1996
 
 Colors =
+  id:spec value:rgb(0.33,0.51,0.63) legend:Specification
   id:spring value:green legend:Spring
   id:jsf value:rgb(0.96,0.64,0) legend:JavaServer&nbsp;Faces
   id:gwt value:red legend:Google&nbsp;Web&nbsp;Toolkit
@@ -33,6 +34,10 @@ Colors =
   id:mp value:rgb(0.22,0.27,0.31) legend:MicroProfile
 
 LineData =
+  at:01/01/1997 color:black layer:back width:0.1
+  at:01/01/1998 color:black layer:back width:0.1
+  at:01/01/1999 color:black layer:back width:0.1
+  at:01/01/2000 color:black layer:back width:0.1
   at:01/01/2001 color:black layer:back width:0.1
   at:01/01/2002 color:black layer:back width:0.1
   at:01/01/2003 color:black layer:back width:0.1
@@ -55,9 +60,14 @@ LineData =
 
 PlotData=
   width:11 textcolor:black align:left anchor:from shift:(10,-4)
+  bar:Servlet&nbsp;API&nbsp;(Spec) from:01/12/1996 till:05/09/2017 color:spec width:3
+  bar:JavaServer&nbsp;Pages&nbsp;(Spec) from:27/09/1999 till:12/06/2013 color:spec width:3
+  bar:J2EE&#044;&nbsp;Java&nbsp;EE&nbsp;(Spec) from:12/12/1999 till:18/09/2017 color:spec width:3
   bar:Tapestry from:01/01/2000 till:18/12/2018 color:tapestry width:3
   bar:Struts from:01/05/2000 till:09/01/2019 color:struts width:3
+  bar:JAX-WS&nbsp;(Spec) from:28/10/2003 till:21/09/2017 color:spec width:3
   bar:Eclipse&nbsp;Mojarra&nbsp;(JSF) from:03/03/2004 till:30/11/2018 color:jsf width:3
+  bar:JavaServer&nbsp;Faces&nbsp;(Spec) from:11/03/2004 till:28/03/2017 color:spec width:3
   bar:Wicket from:01/06/2005 till:28/05/2019 color:wicket width:3
   bar:Grails from:01/10/2005 till:11/07/2019 color:grails width:3
   bar:Apache&nbsp;MyFaces&nbsp;(JSF) from:01/11/2005 till:23/05/2019 color:jsf width:3
@@ -68,6 +78,7 @@ PlotData=
   bar:Apache&nbsp;CXF&nbsp;(JAX-RS) from:01/04/2008 till:13/08/2019 color:jaxrs width:3
   bar:Play from:01/05/2008 till:19/06/2019 color:play width:3
   bar:RESTEasy&nbsp;(JAX-RS) from:01/09/2008 till:30/08/2019 color:jaxrs width:3
+  bar:JAX-RS&nbsp;(Spec) from:08/09/2008 till:21/09/2017 color:spec width:3
   bar:Jersey&nbsp;(JAX-RS) from:01/05/2010 till:25/06/2019 color:jaxrs width:3
   bar:Spark&nbsp;Java from:01/01/2011 till:22/05/2019 color:sparkjava width:3
   bar:Vert.x from:01/01/2011 till:22/08/2019 color:vertx width:3
