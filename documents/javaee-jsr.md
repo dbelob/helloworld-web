@@ -38,26 +38,26 @@
         <th>Release date</th>
     </tr>
     <tr>
-        <td></td>
+        <td align="center">-</td>
         <td></td>
         <td>Servlet 1.0</td>
         <td align="center">12.1996</td>
     </tr>
     <tr>
-        <td></td>
+        <td align="center">-</td>
         <td></td>
         <td>Servlet 2.0</td>
         <td align="center">12.1997</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td align="center">-</td>
+        <td><a href="https://docs.oracle.com/cd/E17802_01/products/products/servlet/2.1/servlet-2.1.pdf">Java Servlet API Specification 2.1a</a></td>
         <td>Servlet 2.1</td>
         <td align="center">11.1998</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td align="center">-</td>
+        <td><a href="https://www.oracle.com/technetwork/java/javaee/docs-142435.html">J2EE 1.2 Documentation</a></td>
         <td>J2EE 1.2</td>
         <td align="center">12.1999</td>
     </tr>
