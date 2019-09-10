@@ -115,11 +115,13 @@
         <td>Resin</td>
         <td align="center">1999</td>
         <td align="center">23.05.2019</td>
+        <td></td>
     </tr>
     <tr>
         <td align="center">15</td>
         <td>Resin Professional</td>
         <td align="center">10.2004</td>
         <td align="center">23.05.2019</td>
+        <td></td>
     </tr>
 </table>
