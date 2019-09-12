@@ -57,6 +57,12 @@
     </tr>
     <tr>
         <td align="center">-</td>
+        <td><a href="https://www.cs.helsinki.fi/group/tipu4/specs/servlet/servlet-specs.ps.gz">Java Servlet API Specification 2.2</a></td>
+        <td>Servlet 2.2</td>
+        <td align="center">12.1999</td>
+    </tr>
+    <tr>
+        <td align="center">-</td>
         <td><a href="https://www.oracle.com/technetwork/java/javaee/docs-142435.html">J2EE 1.2 Documentation</a></td>
         <td>J2EE 1.2</td>
         <td align="center">12.1999</td>
