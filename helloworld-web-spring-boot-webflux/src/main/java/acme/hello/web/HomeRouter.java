@@ -14,6 +14,6 @@ public class HomeRouter {
     public RouterFunction<ServerResponse> route(HomeHandler homeHandler) {
         return RouterFunctions
                 .route(RequestPredicates.GET("/").and(RequestPredicates.accept(MediaType.TEXT_PLAIN)),
-                        homeHandler::hello);
+                        homeHandler);
     }
 }
