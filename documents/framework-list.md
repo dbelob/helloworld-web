@@ -101,8 +101,7 @@
     </tr>
     <tr>
         <td align="center">7</td>
-        <td>Google Web Toolkit</td>
-        <td></td>
+        <td colspan="2">Google Web Toolkit</td>
         <td align="center">16.05.2006</td>
         <td align="center">19.10.2017</td>
         <td align="center">7,74</td>
@@ -110,8 +109,7 @@
     </tr>
     <tr>
         <td align="center">8</td>
-        <td>Grails</td>
-        <td></td>
+        <td colspan="2">Grails</td>
         <td align="center">10.2005</td>
         <td align="center">11.07.2019</td>
         <td align="center">6,35</td>
@@ -119,8 +117,7 @@
     </tr>
     <tr>
         <td align="center">9</td>
-        <td>Struts</td>
-        <td></td>
+        <td colspan="2">Struts</td>
         <td align="center">05.2000</td>
         <td align="center">09.01.2019</td>
         <td align="center">5,4</td>
@@ -128,8 +125,7 @@
     </tr>
     <tr>
         <td align="center">10</td>
-        <td>Dropwizard</td>
-        <td></td>
+        <td colspan="2">Dropwizard</td>
         <td align="center">21.12.2011</td>
         <td align="center">07.08.2019</td>
         <td align="center">4,9</td>
@@ -137,8 +133,7 @@
     </tr>
     <tr>
         <td align="center">11</td>
-        <td>Play</td>
-        <td></td>
+        <td colspan="2">Play</td>
         <td align="center">05.2008</td>
         <td align="center">19.06.2019</td>
         <td align="center">3,26</td>
@@ -146,8 +141,7 @@
     </tr>
     <tr>
         <td align="center">12</td>
-        <td>JHipster</td>
-        <td></td>
+        <td colspan="2">JHipster</td>
         <td align="center">21.10.2013</td>
         <td align="center">01.08.2019</td>
         <td align="center">2,49</td>
@@ -182,8 +176,7 @@
     </tr>
     <tr>
         <td align="center">17</td>
-        <td>Vaadin</td>
-        <td></td>
+        <td colspan="2">Vaadin</td>
         <td align="center">2006</td>
         <td align="center">26.08.2019</td>
         <td align="center">2,15</td>
@@ -191,8 +184,7 @@
     </tr>
     <tr>
         <td align="center">18</td>
-        <td>Seam</td>
-        <td></td>
+        <td colspan="2">Seam</td>
         <td align="center">2007</td>
         <td align="center">25.07.2013</td>
         <td align="center">1,94</td>
@@ -200,8 +192,7 @@
     </tr>
     <tr>
         <td align="center">19</td>
-        <td>Wicket</td>
-        <td></td>
+        <td colspan="2">Wicket</td>
         <td align="center">06.2005</td>
         <td align="center">28.05.2019</td>
         <td align="center">1,91</td>
@@ -209,8 +200,7 @@
     </tr>
     <tr>
         <td align="center">20</td>
-        <td>Tapestry</td>
-        <td></td>
+        <td colspan="2">Tapestry</td>
         <td align="center">2000</td>
         <td align="center">18.12.2018</td>
         <td align="center">1,9</td>
@@ -218,8 +208,7 @@
     </tr>
     <tr>
         <td align="center">21</td>
-        <td>Spark Java</td>
-        <td></td>
+        <td colspan="2">Spark Java</td>
         <td align="center">2011</td>
         <td align="center">22.05.2019</td>
         <td align="center">0,77</td>
@@ -227,8 +216,7 @@
     </tr>
     <tr>
         <td align="center">22</td>
-        <td>Vert.x</td>
-        <td></td>
+        <td colspan="2">Vert.x</td>
         <td align="center">2011</td>
         <td align="center">22.08.2019</td>
         <td align="center">0,76</td>
@@ -236,8 +224,7 @@
     </tr>
     <tr>
         <td align="center">23</td>
-        <td>Rapidoid</td>
-        <td></td>
+        <td colspan="2">Rapidoid</td>
         <td align="center">08.2014</td>
         <td align="center">05.2018</td>
         <td align="center">0,25</td>
@@ -245,8 +232,7 @@
     </tr>
     <tr>
         <td align="center">24</td>
-        <td>Lagom</td>
-        <td></td>
+        <td colspan="2">Lagom</td>
         <td align="center">03.2016</td>
         <td align="center">05.2019</td>
         <td align="center">0,24</td>
@@ -254,8 +240,7 @@
     </tr>
     <tr>
         <td align="center">25</td>
-        <td>Ratpack</td>
-        <td></td>
+        <td colspan="2">Ratpack</td>
         <td align="center">2013</td>
         <td align="center">18.08.2019</td>
         <td align="center">0,13</td>
@@ -263,8 +248,7 @@
     </tr>
     <tr>
         <td align="center">26</td>
-        <td>Micronaut</td>
-        <td></td>
+        <td colspan="2">Micronaut</td>
         <td align="center">23.10.2018</td>
         <td align="center">06.08.2019</td>
         <td align="center"></td>
@@ -272,8 +256,7 @@
     </tr>
     <tr>
         <td align="center">27</td>
-        <td>Javalin</td>
-        <td></td>
+        <td colspan="2">Javalin</td>
         <td align="center">24.05.2017</td>
         <td align="center">11.08.2019</td>
         <td align="center"></td>

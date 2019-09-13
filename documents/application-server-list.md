@@ -42,16 +42,14 @@
     </tr>
     <tr>
         <td align="center">5</td>
-        <td>Jetty</td>
-        <td></td>
+        <td colspan="2">Jetty</td>
         <td align="center">2000</td>
         <td align="center">14.08.2019</td>
         <td align="center">9</td>
     </tr>
     <tr>
         <td align="center">6</td>
-        <td>WebLogic Server</td>
-        <td></td>
+        <td colspan="2">WebLogic Server</td>
         <td align="center">11.1997</td>
         <td align="center">30.08.2017</td>
         <td align="center">6</td>
@@ -87,16 +85,14 @@
     </tr>
     <tr>
         <td align="center">11</td>
-        <td>Orion Application Server</td>
-        <td></td>
+        <td colspan="2">Orion Application Server</td>
         <td align="center">1999</td>
         <td align="center">03.2006</td>
         <td></td>
     </tr>
     <tr>
         <td align="center">12</td>
-        <td>Oracle Application Server</td>
-        <td></td>
+        <td colspan="2">Oracle Application Server</td>
         <td align="center">2002</td>
         <td align="center">08.2009</td>
         <td></td>
