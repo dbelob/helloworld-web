@@ -145,4 +145,16 @@
         <td>Servlet 4.0</td>
         <td align="center">09.2017</td>
     </tr>
+    <tr>
+        <td align="center">-</td>
+        <td><a href="https://jakarta.ee/specifications/platform/8/">Jakarta EE Platform 8 Specification</a></td>
+        <td>Jakarta EE 8</td>
+        <td align="center">09.2019</td>
+    </tr>
+    <tr>
+        <td align="center">-</td>
+        <td><a href="https://jakarta.ee/specifications/servlet/4.0/">Jakarta Servlet 4.0 Specification</a></td>
+        <td>Servlet 4.0</td>
+        <td align="center">09.2019</td>
+    </tr>
 </table>
