@@ -11,7 +11,7 @@
     <artifactId>helloworld-web-jsf-mojarra</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>HelloWorld JSF (Oracle Mojarra)</name>
+    <name>HelloWorld JSF (Eclipse Mojarra)</name>
 
     <properties>
         <jsf-mojarra.version>2.4.0</jsf-mojarra.version>
