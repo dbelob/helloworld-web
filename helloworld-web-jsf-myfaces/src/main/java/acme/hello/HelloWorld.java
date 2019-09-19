@@ -28,7 +28,7 @@ public class HelloWorld {
     /**
      * Determines the JSF implementation title
      *
-     * @return JSF implementation title, e.g. MyFaces
+     * @return JSF implementation title
      */
     public String getImplementationTitle() {
         return FacesContext.getCurrentInstance().getClass().getPackage().getImplementationTitle();
