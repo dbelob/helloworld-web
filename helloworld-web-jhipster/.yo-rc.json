@@ -1,37 +1,39 @@
 {
   "generator-jhipster": {
     "promptValues": {
-      "packageName": "acme.hello",
-      "nativeLanguage": "en"
+      "packageName": "acme.hello"
     },
-    "jhipsterVersion": "5.4.2",
+    "jhipsterVersion": "6.3.1",
     "applicationType": "monolith",
-    "baseName": "HelloWorld",
+    "baseName": "hello",
     "packageName": "acme.hello",
     "packageFolder": "acme/hello",
     "serverPort": "8080",
-    "authenticationType": "session",
+    "authenticationType": "jwt",
     "cacheProvider": "ehcache",
-    "enableHibernateCache": true,
+    "enableHibernateCache": false,
     "websocket": false,
-    "databaseType": "sql",
-    "devDatabaseType": "h2Memory",
-    "prodDatabaseType": "oracle",
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
     "searchEngine": false,
     "messageBroker": false,
     "serviceDiscoveryType": false,
     "buildTool": "maven",
     "enableSwaggerCodegen": false,
-    "rememberMeKey": "61528e68b72c2e8f3ad1a3c4d467a57a84762a77c011e3d465392ed44061e907e2c2a55a13b351fa0293124037a73863a6cf",
-    "clientFramework": "angularX",
+    "jwtSecretKey": "NTdhZWE2NDU1ODU3Mzk3OGZmMGJiMWQyZGNjNTQxODJhZjBlNzk2NzAxM2MxMWI0ZGIyYzI3NTkzZWI2ZTUxYjdjYmYxNDdiM2MyNWU5Yzg0MGY0NGM2MGRmMDM3ZGVlMWFhMDExMDVjMTJjY2E0ZjNkMzJjOWMzYmQ3OTY5MjI=",
+    "embeddableLaunchScript": false,
     "useSass": true,
     "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
     "testFrameworks": [],
     "jhiPrefix": "jhi",
-    "enableTranslation": true,
-    "nativeLanguage": "en",
-    "languages": [
-      "en"
-    ]
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
   }
 }

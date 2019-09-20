@@ -1,14 +1,15 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { ProdConfig } from './blocks/config/prod.config';
-import { HelloWorldAppModule } from './app.module';
+import { HelloAppModule } from './app.module';
 
 ProdConfig();
 
 if (module['hot']) {
-    module['hot'].accept();
+  module['hot'].accept();
 }
 
 platformBrowserDynamic()
-    .bootstrapModule(HelloWorldAppModule, { preserveWhitespaces: true })
-    .then(success => console.log(`Application started`))
-    .catch(err => console.error(err));
+  .bootstrapModule(HelloAppModule, { preserveWhitespaces: true })
+  // eslint-disable-next-line no-console
+  .then(success => console.log('Application started'))
+  .catch(err => console.error(err));
