@@ -13,53 +13,39 @@
     <name>HelloWorld Micronaut</name>
 
     <properties>
-        <micronaut.version>1.0.0.M4</micronaut.version>
+        <micronaut.version>1.2.2</micronaut.version>
         <exec.mainClass>acme.hello.Application</exec.mainClass>
     </properties>
-
-    <repositories>
-        <repository>
-            <id>jcenter.bintray.com</id>
-            <url>https://jcenter.bintray.com</url>
-        </repository>
-    </repositories>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>io.micronaut</groupId>
-                <artifactId>bom</artifactId>
-                <version>${micronaut.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <dependencies>
         <dependency>
             <groupId>io.micronaut</groupId>
-            <artifactId>inject</artifactId>
+            <artifactId>micronaut-inject</artifactId>
+            <version>${micronaut.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>io.micronaut</groupId>
-            <artifactId>runtime</artifactId>
+            <artifactId>micronaut-runtime</artifactId>
+            <version>${micronaut.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>io.micronaut</groupId>
-            <artifactId>http-client</artifactId>
+            <artifactId>micronaut-http-client</artifactId>
+            <version>${micronaut.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>io.micronaut</groupId>
-            <artifactId>http-server-netty</artifactId>
+            <artifactId>micronaut-http-server-netty</artifactId>
+            <version>${micronaut.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>io.micronaut</groupId>
-            <artifactId>inject-java</artifactId>
+            <artifactId>micronaut-inject-java</artifactId>
+            <version>${micronaut.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -139,7 +125,7 @@
                         <annotationProcessorPaths>
                             <path>
                                 <groupId>io.micronaut</groupId>
-                                <artifactId>inject-java</artifactId>
+                                <artifactId>micronaut-inject-java</artifactId>
                                 <version>${micronaut.version}</version>
                             </path>
                         </annotationProcessorPaths>
