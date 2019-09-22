@@ -101,3 +101,7 @@ Creating a simple web application on *Java* in various ways:
     (for *helloworld-web-microprofile-payara* module)
 
 1. Access the deployed web application at: http://localhost:8080
+
+## Article
+
+See [Habr](https://habr.com/ru/company/jugru/blog/453468/) (Russian)
