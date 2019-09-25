@@ -14,7 +14,7 @@
 
     <properties>
         <javalin.version>3.4.1</javalin.version>
-        <jackson.databind.version>2.9.7</jackson.databind.version>
+        <jackson.databind.version>2.9.10</jackson.databind.version>
         <mainClass>acme.hello.Application</mainClass>
     </properties>
 
