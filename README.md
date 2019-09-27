@@ -35,8 +35,8 @@ Creating a simple web application on *Java* in various ways:
 1. [Rapidoid](https://www.rapidoid.org)
 1. [Lagom](https://www.lagomframework.com)
 1. [Ratpack](https://ratpack.io)
-1. [Micronaut](https://micronaut.io)
 1. [Javalin](https://javalin.io)
+1. [Micronaut](https://micronaut.io)
 1. [MicroProfile](https://microprofile.io):
    * [TomEE](http://tomee.apache.org)
    * [Hammock](https://hammock-project.github.io)
@@ -86,7 +86,7 @@ Creating a simple web application on *Java* in various ways:
     
     `mvn package`  
     `java -jar target/hello-world.jar`  
-    (for *helloworld-web-sparkjava*, *helloworld-web-vertx*, *helloworld-web-rapidoid*, *helloworld-web-ratpack*, *helloworld-web-micronaut*, *helloworld-web-javalin*, *helloworld-web-microprofile-hammock*, *helloworld-web-microprofile-kumuluzee*, *helloworld-web-microprofile-openliberty*, *helloworld-web-microprofile-helidon* modules)
+    (for *helloworld-web-sparkjava*, *helloworld-web-vertx*, *helloworld-web-rapidoid*, *helloworld-web-ratpack*, *helloworld-web-javalin*, *helloworld-web-micronaut*, *helloworld-web-microprofile-hammock*, *helloworld-web-microprofile-kumuluzee*, *helloworld-web-microprofile-openliberty*, *helloworld-web-microprofile-helidon* modules)
     
     `mvn package`  
     `java -jar target/hello-world-exec.jar`  
