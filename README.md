@@ -2,30 +2,25 @@
 
 Creating a simple web application on *Java* in various ways:
 
-1. HTTP Servlet:
-   * `web.xml` file
-   * *@WebServlet* annotation
-   * *ServletContainerInitializer* interface implementation
-1. [Spring MVC](https://spring.io/projects/spring-framework):
-   * `web.xml` file
-   * *Java* configuration
-1. [Spring Boot](https://spring.io/projects/spring-boot):
-   * [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#spring-web)
-   * [Spring WebFlux](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#spring-webflux)
-1. [JavaServer Faces](https://javaee.github.io/javaserverfaces-spec/):
-   * [Eclipse Mojarra](https://projects.eclipse.org/projects/ee4j.mojarra)
-   * [Apache MyFaces](http://myfaces.apache.org)
+1. (*HTTP Servlet*) `web.xml` file
+1. (*HTTP Servlet*) *@WebServlet* annotation
+1. (*HTTP Servlet*) *ServletContainerInitializer* interface implementation
+1. ([Spring MVC](https://spring.io/projects/spring-framework)) `web.xml` file
+1. ([Spring MVC](https://spring.io/projects/spring-framework)) *Java* configuration
+1. ([Spring Boot](https://spring.io/projects/spring-boot)) [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#spring-web)
+1. ([Spring Boot](https://spring.io/projects/spring-boot)) [Spring WebFlux](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#spring-webflux)
+1. ([JavaServer Faces](https://javaee.github.io/javaserverfaces-spec/)) [Eclipse Mojarra](https://projects.eclipse.org/projects/ee4j.mojarra)
+1. ([JavaServer Faces](https://javaee.github.io/javaserverfaces-spec/)) [Apache MyFaces](http://myfaces.apache.org)
 1. [Google Web Toolkit](http://www.gwtproject.org)
 1. [Grails](https://grails.org)
 1. [Struts](https://struts.apache.org)
 1. [Dropwizard](https://www.dropwizard.io)
 1. [Play](https://www.playframework.com)
 1. [JHipster](https://www.jhipster.tech)
-1. [JAX-RS](https://github.com/jax-rs):
-   * [Apache CXF](http://cxf.apache.org)
-   * [RESTEasy](https://resteasy.github.io)
-   * [Jersey](https://jersey.github.io)
-   * [Restlet](https://restlet.com)
+1. ([JAX-RS](https://github.com/jax-rs)) [Apache CXF](http://cxf.apache.org)
+1. ([JAX-RS](https://github.com/jax-rs)) [RESTEasy](https://resteasy.github.io)
+1. ([JAX-RS](https://github.com/jax-rs)) [Jersey](https://jersey.github.io)
+1. ([JAX-RS](https://github.com/jax-rs)) [Restlet](https://restlet.com)
 1. [Vaadin](https://vaadin.com)
 1. [Seam](http://seamframework.org)
 1. [Wicket](https://wicket.apache.org)
@@ -38,14 +33,13 @@ Creating a simple web application on *Java* in various ways:
 1. [Javalin](https://javalin.io)
 1. [Micronaut](https://micronaut.io)
 1. [Quarkus](https://quarkus.io)
-1. [MicroProfile](https://microprofile.io):
-   * [TomEE](http://tomee.apache.org)
-   * [Hammock](https://hammock-project.github.io)
-   * [Thorntail](https://thorntail.io)
-   * [KumuluzEE](https://ee.kumuluz.com)
-   * [Payara Micro](https://www.payara.fish/payara_micro)
-   * [Open Liberty](https://openliberty.io)
-   * [Helidon](https://helidon.io)
+1. ([MicroProfile](https://microprofile.io)) [TomEE](http://tomee.apache.org)
+1. ([MicroProfile](https://microprofile.io)) [Hammock](https://hammock-project.github.io)
+1. ([MicroProfile](https://microprofile.io)) [Thorntail](https://thorntail.io)
+1. ([MicroProfile](https://microprofile.io)) [KumuluzEE](https://ee.kumuluz.com)
+1. ([MicroProfile](https://microprofile.io)) [Payara Micro](https://www.payara.fish/payara_micro)
+1. ([MicroProfile](https://microprofile.io)) [Open Liberty](https://openliberty.io)
+1. ([MicroProfile](https://microprofile.io)) [Helidon](https://helidon.io)
 
 ## Requirements
 
