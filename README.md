@@ -33,6 +33,7 @@ Creating a simple web application on *Java* in various ways:
 1. [Javalin](https://javalin.io)
 1. [Micronaut](https://micronaut.io)
 1. [Quarkus](https://quarkus.io)
+1. [ActFramework](http://actframework.org)
 1. ([MicroProfile](https://microprofile.io)) [TomEE](http://tomee.apache.org)
 1. ([MicroProfile](https://microprofile.io)) [Hammock](https://hammock-project.github.io)
 1. ([MicroProfile](https://microprofile.io)) [Thorntail](https://thorntail.io)
@@ -83,8 +84,11 @@ Creating a simple web application on *Java* in various ways:
     `java -jar target/hello-world.jar`  
     (for *helloworld-web-sparkjava*, *helloworld-web-vertx*, *helloworld-web-rapidoid*, *helloworld-web-ratpack*, *helloworld-web-javalin*, *helloworld-web-micronaut*, *helloworld-web-microprofile-hammock*, *helloworld-web-microprofile-kumuluzee*, *helloworld-web-microprofile-openliberty*, *helloworld-web-microprofile-helidon* modules)
     
-    `mvn compile quarkus:dev`  
+    `mvn clean compile quarkus:dev`  
     (for *helloworld-web-quarkus* module)
+    
+    `mvn clean compile act:dev`  
+    (for *helloworld-web-actframework* module)
     
     `mvn package`  
     `java -jar target/hello-world-exec.jar`  

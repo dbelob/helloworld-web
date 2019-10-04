@@ -80,6 +80,7 @@
         <module>helloworld-web-javalin</module>
         <module>helloworld-web-micronaut</module>
         <module>helloworld-web-quarkus</module>
+        <module>helloworld-web-actframework</module>
         <module>helloworld-web-microprofile-tomee</module>
         <module>helloworld-web-microprofile-hammock</module>
         <module>helloworld-web-microprofile-thorntail</module>

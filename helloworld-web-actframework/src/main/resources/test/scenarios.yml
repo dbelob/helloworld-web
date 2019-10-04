@@ -1,0 +1,37 @@
+Scenario(Hello Service):
+  description: a service says hello
+  interactions:
+  - description: send request to hello service without parameter
+    request:
+      method: GET
+      url: /hello
+    response:
+      json:
+        result: Hello World
+  - description: send request to hello servcie with parameter specified
+    request:
+      method: GET
+      url: /hello?who=ActFramework
+    response:
+      # this time we demonstrate how to verify text with a list of verifiers
+      json:
+        result:
+        - eq: Hello ActFramework # value must be equal to "Hello ActFramework"
+        - contains: ActFramework # value must contains "ActFramework"
+        - starts: Hello # value must starts with "Hello"
+        - ends: Framework # value must ends with "Framework"
+
+# Test Service#date() endpoint, which is available at `GET /date` endpoint
+Scenario(Date Service):
+  description: A service returns an important date in the history
+  interactions:
+  - description: send request to the service
+    request:
+      method: GET
+      url: /date
+    response:
+      json:
+        result:
+        - after: 1997-05-11 # the returned date should be after date 1997-05-11
+        - before: 13/May/2018 # the returned date should be before date 13/May/2018
+        - -after: ${now()} # the returned date should not be after the current timestamp
