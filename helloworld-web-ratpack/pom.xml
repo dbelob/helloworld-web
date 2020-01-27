@@ -13,7 +13,7 @@
     <name>HelloWorld Ratpack</name>
 
     <properties>
-        <ratpack.version>1.7.5</ratpack.version>
+        <ratpack.version>1.7.6</ratpack.version>
         <mainClass>acme.hello.Application</mainClass>
     </properties>
 
