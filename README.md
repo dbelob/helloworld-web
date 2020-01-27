@@ -166,7 +166,7 @@ Creating a simple web application on *Java* in various ways:
     <tr>
         <td align="center">31</td>
         <td colspan="2"><a href="https://quarkus.io">Quarkus</a></td>
-        <td align="center">-</td>
+        <td align="center">2019-11-25</td>
     </tr>
     <tr>
         <td align="center">32</td>

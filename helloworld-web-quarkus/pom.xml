@@ -22,7 +22,7 @@
 
         <surefire-plugin.version>2.22.0</surefire-plugin.version>
 
-        <quarkus.version>0.22.0</quarkus.version>
+        <quarkus.version>1.2.0.Final</quarkus.version>
     </properties>
 
     <dependencyManagement>
