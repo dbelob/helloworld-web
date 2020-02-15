@@ -15,7 +15,7 @@
 
     <properties>
         <apache.cxf.version>3.2.6</apache.cxf.version>
-        <jackson.version>1.8.6</jackson.version>
+        <jackson.version>1.9.13</jackson.version>
         <build.helper.plugin.version>1.5</build.helper.plugin.version>
         <maven.plugin.version>2.20</maven.plugin.version>
     </properties>
