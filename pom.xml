@@ -35,7 +35,7 @@
         <jsp.api.version>2.3.3</jsp.api.version>
         <jsp.el.version>3.0.0</jsp.el.version>
         <jstl.version>1.2</jstl.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <logback.version>1.2.3</logback.version>
         <mockito.version>2.18.3</mockito.version>
         <servlet.api.version>4.0.1</servlet.api.version>
