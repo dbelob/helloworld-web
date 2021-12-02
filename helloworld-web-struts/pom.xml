@@ -14,7 +14,7 @@
     <name>HelloWorld Struts</name>
 
     <properties>
-        <struts2.version>2.5.17</struts2.version>
+        <struts2.version>2.5.22</struts2.version>
     </properties>
 
     <build>
