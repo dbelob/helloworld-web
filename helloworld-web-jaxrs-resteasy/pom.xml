@@ -14,7 +14,7 @@
     <name>HelloWorld JAX-RS (RESTEasy)</name>
 
     <properties>
-        <resteasy.version>3.6.1.Final</resteasy.version>
+        <resteasy.version>4.5.7.Final</resteasy.version>
     </properties>
 
     <dependencies>
