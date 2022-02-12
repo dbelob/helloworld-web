@@ -29,7 +29,7 @@
         <war.plugin.version>3.2.3</war.plugin.version>
 
         <gwt.version>2.8.2</gwt.version>
-        <h2.version>2.0.206</h2.version>
+        <h2.version>2.1.210</h2.version>
         <hamcrest.version>1.3</hamcrest.version>
         <hibernate.validator.version>6.1.5.Final</hibernate.validator.version>
         <jsp.api.version>2.3.3</jsp.api.version>
