@@ -15,7 +15,7 @@
 
     <properties>
         <javaee.version>7.0</javaee.version>
-        <resteasy.version>4.5.7.Final</resteasy.version>
+        <resteasy.version>4.6.0.Final</resteasy.version>
         <jsonunit.version>1.12.1</jsonunit.version>
         <jackson.version>2.12.6.1</jackson.version>
         <jboss-logging.version>3.3.0.Final</jboss-logging.version>
