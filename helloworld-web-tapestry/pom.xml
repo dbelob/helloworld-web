@@ -14,7 +14,7 @@
     <name>HelloWorld Tapestry</name>
 
     <properties>
-        <tapestry.version>5.6.4</tapestry.version>
+        <tapestry.version>5.8.2</tapestry.version>
     </properties>
 
     <dependencies>
