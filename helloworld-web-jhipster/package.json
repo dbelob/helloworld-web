@@ -87,7 +87,7 @@
     "@openapitools/openapi-generator-cli": "0.0.14-4.0.2",
     "webpack": "4.39.3",
     "webpack-cli": "3.3.7",
-    "webpack-dev-server": "3.8.0",
+    "webpack-dev-server": "3.11.3",
     "webpack-merge": "4.2.2",
     "webpack-notifier": "1.8.0",
     "webpack-visualizer-plugin": "0.1.11",
