@@ -34,7 +34,7 @@
     "zone.js": "0.10.2"
   },
   "devDependencies": {
-    "@angular/cli": "8.3.29",
+    "@angular/cli": "15.0.1",
     "@angular/compiler-cli": "8.2.4",
     "@ngtools/webpack": "8.3.29",
     "@types/jest": "24.0.18",
