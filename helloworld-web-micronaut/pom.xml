@@ -13,7 +13,7 @@
     <name>HelloWorld Micronaut</name>
 
     <properties>
-        <micronaut.version>2.5.9</micronaut.version>
+        <micronaut.version>3.8.3</micronaut.version>
         <exec.mainClass>acme.hello.Application</exec.mainClass>
     </properties>
 
