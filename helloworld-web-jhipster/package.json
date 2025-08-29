@@ -34,7 +34,7 @@
     "zone.js": "0.10.2"
   },
   "devDependencies": {
-    "@angular/cli": "15.0.1",
+    "@angular/cli": "20.2.0",
     "@angular/compiler-cli": "18.0.2",
     "@ngtools/webpack": "8.3.29",
     "@types/jest": "24.0.18",
@@ -58,7 +58,7 @@
     "file-loader": "4.2.0",
     "fork-ts-checker-webpack-plugin": "9.0.2",
     "friendly-errors-webpack-plugin": "1.7.0",
-    "generator-jhipster": "8.7.0",
+    "generator-jhipster": "8.11.0",
     "html-loader": "0.5.5",
     "html-webpack-plugin": "3.2.0",
     "husky": "9.1.6",
