@@ -14,7 +14,7 @@
     <name>HelloWorld Vaadin</name>
 
     <properties>
-        <vaadin.version>8.28.2</vaadin.version>
+        <vaadin.version>8.30.0</vaadin.version>
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
     </properties>
 
